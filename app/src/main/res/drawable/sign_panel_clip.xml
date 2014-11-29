@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+   <item>
+	  <shape
+		 android:shape="rectangle">
+		 <corners android:radius="20dp"></corners>
+		 <solid android:color="@color/white"></solid>
+		 <stroke
+			android:color="@color/hint_foreground_dark"
+			android:dashGap="10dp"
+			android:width="5dp"
+			android:dashWidth="30dp"></stroke>
+		 <padding
+			android:bottom="@dimen/sign_panel_clip_padding"
+			android:left="@dimen/sign_panel_clip_padding"
+			android:right="@dimen/sign_panel_clip_padding"
+			android:top="@dimen/sign_panel_clip_padding"></padding>
+	  </shape>
+   </item>
+</layer-list>

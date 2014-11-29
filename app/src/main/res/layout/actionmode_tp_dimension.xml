@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="horizontal"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+   >
+
+   <TextView
+	  style="@style/c.actionbar"
+	  android:text="Height:"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"/>
+
+   <RelativeLayout
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+
+	  <TextView
+		 style="@style/c.actionbar"
+		 android:id="@+id/tp_height_view"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:layout_alignParentLeft="true"/>
+
+	  <Button
+		 android:id="@+id/tp_height_but"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 style="@style/action_bar_button"
+		 android:layout_alignParentLeft="true"/>
+   </RelativeLayout>
+
+   <TextView
+	  style="@style/c.actionbar"
+	  android:text="Width:"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"/>
+
+   <RelativeLayout
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+
+	  <TextView
+		 style="@style/c.actionbar"
+		 android:id="@+id/tp_width_view"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:layout_alignParentLeft="true"/>
+
+	  <Button
+		 android:id="@+id/tp_width_but"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 style="@style/action_bar_button"
+		 android:layout_alignParentLeft="true"/>
+   </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/act_trash"
+        android:icon="@drawable/trash"
+        android:orderInCategory="40"
+        app:showAsAction="always"
+        android:title="Reset" />
+    <item
+        android:id="@+id/edit_label"
+        android:icon="@drawable/ic_re_label"
+        android:orderInCategory="41"
+        app:showAsAction="always"
+        android:title="relabel" />
+    <item
+        android:id="@+id/act_accept"
+        android:icon="@drawable/i_accept"
+        android:orderInCategory="42"
+        app:showAsAction="always"
+        android:title="Save" />
+</menu>

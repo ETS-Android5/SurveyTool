@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:android="http://schemas.android.com/apk/res/android">
+   <!-- <item
+		 android:icon="@drawable/icon_109"
+		 android:id="@+id/finalize_children"
+		 android:title="Finalize Map"
+		 app:showAsAction="ifRoom"
+		 android:orderInCategory="9"
+		 />-->
+   <!--<item
+	  android:id="@+id/setdistance"
+	  android:icon="@drawable/scaleicon_d"
+	  android:label="Ratio Distance"
+	  android:orderInCategory="10"
+	  app:showAsAction="never"
+	  android:title="Ratio Distance"/>-->
+  <!-- <item
+	  android:id="@+id/action_enterdata"
+	  android:icon="@drawable/ic_1388483807_edit_property_"
+	  android:orderInCategory="17"
+	  app:showAsAction="always"
+	  android:title="@string/enterresult"/>
+
+   <item
+	  android:id="@+id/inputImage"
+	  android:icon="@android:drawable/ic_menu_gallery"
+	  android:label="Get gallery image"
+	  android:orderInCategory="11"
+	  app:showAsAction="always"
+	  android:title="Get gallery image"/>
+
+   <item
+	  android:id="@+id/act_savedata"
+	  android:orderInCategory="14"
+	  app:showAsAction="never"
+	  android:title="Export Bitmap"/>
+   <item
+	  android:id="@+id/act_add_tp"
+	  android:orderInCategory="15"
+	  app:showAsAction="never"
+	  android:title="@string/proposetrailpit"/>
+   <item
+	  android:id="@+id/act_add_boundary"
+	  android:orderInCategory="16"
+	  app:showAsAction="never"
+	  android:title="@string/surveyboundary"/>
+   <item
+	  android:id="@+id/act_upload"
+	  android:icon="@drawable/ic_ruler_icon"
+	  android:orderInCategory="16"
+	  app:showAsAction="never"
+	  android:title="Upload"/>
+   <item
+	  android:id="@+id/browse_list_map"
+	  android:icon="@drawable/scaleicon_d"
+	  android:label="Review"
+	  android:orderInCategory="10"
+	  app:showAsAction="never"
+	  android:title="View Upload List"/>
+   <item
+	  android:id="@+id/action_settings"
+	  android:orderInCategory="39"
+	  app:showAsAction="never"
+	  android:title="Settings"/>
+   <item
+	  android:id="@+id/act_quit"
+	  android:orderInCategory="40"
+	  app:showAsAction="never"
+	  android:title="Exit"/>-->
+</menu>

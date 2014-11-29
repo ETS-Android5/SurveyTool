@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+	  xmlns:android="http://schemas.android.com/apk/res/android">
+   <item
+	  android:id="@+id/pensetting"
+	  android:orderInCategory="1"
+	  app:showAsAction="always"
+	  android:icon="@drawable/ic_editor_pencil_pen_edit_write_"
+	  android:title="@string/pensetting"/>
+   <item
+	  android:id="@+id/clear"
+	  android:icon="@drawable/i_cancel"
+	  android:orderInCategory="2"
+	  app:showAsAction="always"
+	  android:title="@string/clear"/>
+   <item
+	  android:id="@+id/done"
+	  android:icon="@drawable/ic_check_dark"
+	  android:orderInCategory="2"
+	  app:showAsAction="always"
+	  android:title="@string/done"/>
+</menu>

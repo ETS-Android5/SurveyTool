@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+	  xmlns:android="http://schemas.android.com/apk/res/android">
+   <item
+	  android:id="@+id/define_ab_dist"
+	  android:icon="@drawable/ic_distance"
+	  android:title="Enter Meter Distance"
+	  app:showAsAction="always"/>
+   <!-- <item
+	 android:id="@+id/snap_h"
+	 android:orderInCategory="10"
+	 app:showAsAction="always"
+	 android:icon="@drawable/ic_k01"
+	 android:title="Snap to Map Height"/>
+  <item
+	 android:id="@+id/snap_w"
+	 android:orderInCategory="20"
+	 app:showAsAction="always"
+	 android:icon="@drawable/ic_k2"
+	 android:title="Snap to Map Width"/>-->
+</menu>

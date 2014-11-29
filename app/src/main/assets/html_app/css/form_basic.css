@@ -1,0 +1,88 @@
+
+.ginput_container > select,
+.ginput_container > textarea,
+.ginput_container > input {
+    -webkit-tap-highlight-color: transparent; /*  galaxy devices  */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.gform_wrapper .gfield_checkbox li label,
+.gform_wrapper .gfield_radio li label,
+.gform_page_footer > * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent; /*  galaxy devices  */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.gform_wrapper {
+    background-color: #fcfcfc;
+}
+
+.gform_wrapper .gf_progressbar {
+    width: 99% !important;
+    margin: 0 auto !important;
+}
+
+.validation_error {
+    margin: 0px !important;
+    color: #ff6469 !important;
+    text-shadow: none;
+    font-size: 1em !important;
+}
+
+.gform_wrapper li.gfield.gfield_error {
+    background-color: rgba(255, 247, 247, 1);
+}
+
+.gform_wrapper .gform_ajax_spinner {
+    padding-left: 10px;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.ginput_container.targetfield {
+    border-bottom: 2px solid #000000;
+    background-color: white;
+    height: 200px;
+}
+
+.submission {
+    -webkit-tap-highlight-color: transparent; /*  galaxy devices  */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    padding: 15px 60px;
+    background-color: #4fc0e8;
+    margin: 10px auto;
+    margin-bottom: 250px;
+    border: none;
+    float: none;
+    display: block;
+    color: white;
+    font-weight: 400;
+    font-weight: bold;
+    /* text-shadow:1px 1px 0px #35495d;*/
+    /*  box-shadow:0px 3px 0px #b44efe;*/
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.submission:active {
+    background: #35495d;
+}
+
+.button.sign {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: none;
+    background-color: #e4e4e4;
+}

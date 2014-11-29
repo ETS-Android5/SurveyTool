@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              >
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:measureWithLargestChild="false"
+            android:background="@drawable/above_shadow">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trial No"
+                android:id="@+id/cIndex"
+                android:layout_marginLeft="10px"
+                android:typeface="sans"
+                android:width="100dp"
+                android:textSize="20dp"
+                android:textIsSelectable="true"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Radius P1"
+                android:id="@+id/c1"
+                android:layout_toRightOf="@+id/cIndex"
+                android:layout_marginLeft="10px"
+                android:typeface="sans"
+                android:width="100dp"
+                android:textSize="20dp"
+                android:textIsSelectable="true"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Radius P2"
+                android:id="@+id/c2"
+                android:layout_toRightOf="@+id/c1"
+                android:layout_marginLeft="10px"
+                android:typeface="sans"
+                android:width="100dp"
+                android:textSize="20dp"
+                android:textIsSelectable="true"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <ListView
+            android:layout_width="match_parent"
+            android:id="@android:id/list"
+            android:layout_height="match_parent"
+            android:smoothScrollbar="true"
+            android:background="@drawable/gradient"></ListView>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent">
+
+   <LinearLayout
+	  android:orientation="horizontal"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content">
+
+	  <TextView
+		 android:text="Distance 1"
+		 style="@style/displayText"
+		 android:autoText="false"
+		 android:clickable="false"></TextView>
+
+	  <TextView
+		 android:text="Distance 2"
+		 style="@style/displayText"></TextView>
+   </LinearLayout>
+
+   <LinearLayout
+	  android:orientation="horizontal"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content">
+
+	  <EditText
+		 android:id="@+id/cc1"
+		 style="@style/editText.Numberic"/>
+
+	  <EditText
+		 android:id="@+id/cc2"
+		 style="@style/editText.Numberic"/>
+   </LinearLayout>
+</LinearLayout>

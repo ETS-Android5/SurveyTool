@@ -1,0 +1,7 @@
+<component name="CopyrightManager">
+  <settings default="onecall">
+    <module2copyright>
+      <element module="All" copyright="onecall" />
+    </module2copyright>
+  </settings>
+</component>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+   <PreferenceCategory android:title="OC Account Information">
+
+
+	  <!--<EditTextPreference
+		 android:key="cp_name"
+		 android:title="CP name"
+		 android:summary="The full CP name registered at One Call"
+		 android:dialogTitle="Change my name"/>-->
+
+	  <EditTextPreference
+		 android:key="app_login"
+		 android:title="CP Login name"
+		 android:summary="User login name"
+		 android:dialogTitle="Change my login name here"
+		 android:dialogIcon="@drawable/ic_tag_256"
+		 android:inputType="text"
+
+		 />
+
+	  <EditTextPreference
+		 android:key="app_pass"
+		 android:title="Login password"
+		 android:summary="Password for the user account"
+		 android:dialogTitle="Update a new password"
+		 android:dialogIcon="@drawable/ic_tag_256"
+		 android:inputType="textPassword"
+		 />
+
+	  <!-- <CheckBoxPreference
+		 android:title="Use debug server"
+		 android:key="isDebug"
+		 android:summary="Connecting to a debug server instead of prod server"/>-->
+
+	  <SwitchPreference
+		 android:title="Debug Logs"
+		 android:key="onDebugAdmin"
+		 android:summary="Show debug dialogs"/>
+
+	  <Preference
+		 android:title="Check Authentication Status"
+		 android:key="loginbutton"
+		 android:summary="This will check if you have login to the system"/>
+   </PreferenceCategory>
+
+</PreferenceScreen>

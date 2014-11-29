@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:clickable="false"
+				android:tileMode="repeat">
+
+   <LinearLayout
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:id="@+id/backbutton"
+	  style="@style/action_bar_button"
+	  >
+
+	  <ImageView
+		 android:layout_width="5dp"
+		 android:layout_height="match_parent"
+		 android:src="@drawable/back"
+		 android:scaleType="fitXY"
+		 android:layout_marginTop="5dp"
+		 android:layout_marginBottom="5dp"></ImageView>
+
+	  <ImageView
+		 android:layout_width="60dp"
+		 android:layout_height="match_parent"
+		 android:src="@drawable/i_marker_inside_azure"
+		 android:scaleType="centerInside"></ImageView>
+	  <!--<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:text="Back"
+		android:textColor="@color/holo_blue_light"
+	></TextView>-->
+   </LinearLayout>
+
+   <ImageButton
+	  android:src="@drawable/plussign"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:id="@+id/button_02"
+	  android:layout_alignParentTop="true"
+	  android:layout_alignParentRight="true"
+	  style="@style/action_bar_button"
+	  />
+
+   <LinearLayout
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:id="@+id/button_01"
+	  android:layout_toLeftOf="@id/button_02"
+	  style="@style/action_bar_button"
+	  >
+
+	  <TextView
+		 android:layout_width="wrap_content"
+		 android:layout_height="match_parent"
+		 android:text="1:200"
+		 android:id="@+id/ratio_text_view"
+		 android:layout_alignParentTop="true"
+		 android:textSize="22sp"
+		 android:clickable="false"
+		 android:textIsSelectable="false"
+		 android:textColor="@color/keyguard_text_color_soundon"
+		 android:focusableInTouchMode="false"
+		 android:singleLine="true"
+		 android:maxWidth="100dip"/>
+
+	  <ImageView
+		 android:layout_width="wrap_content"
+		 android:layout_height="fill_parent"
+		 android:src="@drawable/scaleicon"
+		 android:id="@+id/img1"
+		 />
+   </LinearLayout>
+
+
+</RelativeLayout>

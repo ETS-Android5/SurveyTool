@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.three.SlidingUpPanelLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/overlay_panel"
+        android:layout_gravity="center">
+
+    <com.hkm.oc.panel.corepanel.MapPanel
+            android:id="@+id/rendering_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#eee"
+            android:orientation="vertical"
+            android:id="@+id/lowerpanel">
+        <TextView
+                android:id="@+id/textarea"
+                android:gravity="center|top"
+                android:text="Tool Box"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textSize="16sp"/>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/textarea2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:text="Content text is here one"
+                    android:textSize="16sp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="0.3"
+                    android:src="@drawable/controlpanel"
+                    android:scaleType="fitStart"></ImageView>
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight=".3"
+                    android:src="@drawable/controlpanel"
+                    android:scaleType="fitStart"/>
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight=".3"
+                    android:src="@drawable/controlpanel"
+                    android:scaleType="fitStart"/>
+        </LinearLayout>
+
+        <!-- <include
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:id="@+id/part_bottom_panel"
+                 layout="@layout/part_bottom_pan"></include>-->
+    </LinearLayout>
+</com.three.SlidingUpPanelLayout>
+

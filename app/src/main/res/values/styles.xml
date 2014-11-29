@@ -1,0 +1,330 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+   <!--
+ Base application theme, dependent on API level. This theme is replaced
+ by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+-->
+   <style name="AppBaseTheme" parent="@style/Theme.Onecall">
+	  <item name="android:windowActionBarOverlay">true</item>
+	  <item name="android:windowAnimationStyle">@style/animation_window</item>
+   </style>
+
+   <!-- Application theme. -->
+   <style name="AppTheme" parent="AppBaseTheme">
+	  <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+   </style>
+
+   <style name="HomeStyle" parent="AppTheme">
+	  <item name="android:windowNoTitle">true</item>
+	  <item name="android:textAppearanceButton">@style/front_button_text_appearance</item>
+   </style>
+
+   <style name="front_button_text_appearance">
+	  <item name="android:textSize">15dp</item>
+	  <item name="android:textColor">#ff0e0652</item>
+	  <item name="android:textStyle">bold</item>
+   </style>
+
+   <style name="animation_window">
+	  <item name="@android:activityOpenEnterAnimation">@anim/app_start_new</item>
+	  <item name="@android:activityOpenExitAnimation">@anim/app_start_old</item>
+	  <item name="@android:activityCloseEnterAnimation">@anim/app_end_new</item>
+	  <item name="@android:activityCloseExitAnimation">@anim/app_end_old</item>
+   </style>
+
+   <!-- c for list legend -->
+   <style name="c">
+	  <item name="android:layout_marginLeft">0dp</item>
+	  <item name="android:layout_marginRight">0dp</item>
+	  <item name="android:paddingLeft">4dp</item>
+	  <item name="android:layout_alignParentBottom">true</item>
+	  <item name="android:layout_alignParentTop">true</item>
+	  <item name="android:layout_height">wrap_content</item>
+	  <item name="android:layout_width">wrap_content</item>
+	  <item name="android:typeface">sans</item>
+	  <item name="android:textSize">20dp</item>
+	  <item name="android:singleLine">true</item>
+	  <item name="android:layout_gravity">center_vertical</item>
+	  <item name="android:layout_centerVertical">true</item>
+	  <item name="android:gravity">center_vertical</item>
+   </style>
+   <!-- b for editing text display field -->
+   <style name="b">
+	  <item name="android:layout_marginLeft">0dp</item>
+	  <item name="android:layout_marginRight">0dp</item>
+	  <item name="android:paddingLeft">4dp</item>
+	  <item name="android:layout_alignParentBottom">true</item>
+	  <item name="android:layout_alignParentTop">true</item>
+	  <item name="android:layout_height">wrap_content</item>
+	  <item name="android:layout_width">wrap_content</item>
+	  <item name="android:typeface">sans</item>
+	  <item name="android:textSize">20dp</item>
+	  <item name="android:singleLine">true</item>
+	  <item name="android:layout_weight">1</item>
+	  <item name="android:layout_gravity">center_vertical</item>
+	  <item name="android:layout_centerVertical">true</item>
+	  <item name="android:gravity">center_vertical</item>
+	  <item name="android:text">____</item>
+   </style>
+
+   <style name="c.actionbar">
+	  <item name="android:textColor">@color/holo_orange_light</item>
+	  <item name="android:width">@dimen/col_basic</item>
+   </style>
+   <!--column configuration-->
+   <style name="c.column">
+	  <item name="android:textColor">@color/holo_purple</item>
+	  <item name="android:layout_marginLeft">3dp</item>
+	  <item name="android:layout_marginRight">2dp</item>
+	  <item name="android:width">@dimen/col_basic</item>
+   </style>
+
+   <style name="c.column.dep">
+	  <item name="android:textColor">@color/link_text_holo_dark</item>
+	  <item name="android:width">@dimen/col_depth</item>
+	  <item name="android:text">@string/row_deep</item>
+   </style>
+
+   <style name="c.column.cable_radius">
+	  <item name="android:textColor">@color/lockscreen_owner_info</item>
+	  <item name="android:width">@dimen/col_radius</item>
+	  <item name="android:text">@string/cable_radius</item>
+   </style>
+
+   <style name="c.column.cable_radius.label">
+	  <item name="android:width">@dimen/legend_radius</item>
+	  <item name="android:layout_width">@dimen/legend_radius</item>
+   </style>
+
+   <style name="c.column.label">
+	  <item name="android:textColor">@color/holo_orange_dark</item>
+	  <item name="android:width">@dimen/legend_label</item>
+	  <item name="android:text">@string/row_label</item>
+	  <item name="android:layout_width">@dimen/legend_label</item>
+   </style>
+   <!--end column configuration-->
+   <!--button configuration-->
+   <style name="b.fieldsdisplay">
+	  <item name="android:textColor">@color/holo_purple</item>
+	  <item name="android:layout_marginLeft">1dp</item>
+	  <item name="android:layout_marginRight">1dp</item>
+	  <item name="android:layout_width">@dimen/col_basic</item>
+   </style>
+
+   <style name="b.fieldsdisplaytablet">
+	  <item name="android:textColor">@color/holo_purple</item>
+	  <item name="android:layout_marginLeft">2dp</item>
+	  <item name="android:layout_marginRight">2dp</item>
+	  <item name="android:layout_width">wrap_content</item>
+   </style>
+
+   <style name="b.fieldsdisplay.depth">
+	  <item name="android:textColor">@color/link_text_holo_dark</item>
+	  <item name="android:layout_width">@dimen/col_depth</item>
+   </style>
+
+   <style name="b.fieldsdisplay.cable">
+	  <item name="android:textColor">@color/lockscreen_owner_info</item>
+	  <item name="android:layout_width">@dimen/col_radius</item>
+   </style>
+
+   <style name="b.fieldsdisplay.deptablet">
+	  <item name="android:layout_width">match_parent</item>
+	  <item name="android:textColor">@color/link_text_holo_dark</item>
+   </style>
+
+   <style name="b.yellow2">
+	  <item name="android:textColor">@color/holo_orange_dark</item>
+   </style>
+
+   <style name="b.yellow">
+	  <item name="android:textColor">@color/holo_orange_light</item>
+   </style>
+
+   <style name="editText">
+	  <item name="android:layout_marginLeft">0dp</item>
+	  <item name="android:layout_marginRight">0dp</item>
+	  <item name="android:layout_alignParentBottom">true</item>
+	  <item name="android:layout_alignParentTop">true</item>
+	  <item name="android:layout_height">wrap_content</item>
+	  <item name="android:layout_width">wrap_content</item>
+	  <item name="android:typeface">sans</item>
+	  <item name="android:textSize">20dp</item>
+	  <item name="android:singleLine">true</item>
+	  <item name="android:layout_weight">1</item>
+	  <item name="android:layout_gravity">center_vertical</item>
+	  <item name="android:layout_centerVertical">true</item>
+	  <item name="android:gravity">center_vertical</item>
+	  <item name="android:hint">X</item>
+	  <item name="android:selectAllOnFocus">true</item>
+	  <item name="android:clickable">true</item>
+	  <item name="android:focusable">true</item>
+	  <item name="android:focusableInTouchMode">true</item>
+   </style>
+
+   <style name="editText.label_box">
+	  <item name="android:layout_alignParentBottom">false</item>
+	  <item name="android:layout_alignParentTop">false</item>
+   </style>
+
+   <style name="editText.Numberic">
+	  <item name="android:hint">000.00</item>
+	  <item name="android:inputType">numberDecimal|phone</item>
+	  <item name="android:ems">5</item>
+	  <item name="android:imeOptions">actionGo</item>
+	  <item name="android:imeActionLabel">Set</item>
+	  <item name="android:layout_width">90dp</item>
+	  <item name="android:numeric">decimal</item>
+	  <item name="android:textColor">@color/holo_blue_light</item>
+   </style>
+
+   <style name="editText.Numberic.bigtext">
+	  <item name="android:textSize">30dp</item>
+   </style>
+
+   <style name="editText.yellow">
+	  <item name="android:textColor">@color/holo_orange_light</item>
+   </style>
+
+   <style name="editText.yellow2">
+	  <item name="android:textColor">@color/holo_orange_dark</item>
+   </style>
+
+   <style name="displayText">
+	  <item name="android:layout_height">wrap_content</item>
+	  <item name="android:layout_width">wrap_content</item>
+	  <item name="android:textSize">20dp</item>
+	  <item name="android:singleLine">true</item>
+	  <item name="android:layout_weight">1</item>
+	  <item name="android:layout_gravity">center_vertical</item>
+	  <item name="android:gravity">center_horizontal</item>
+   </style>
+
+   <style name="displayText.bigtext">
+	  <item name="android:textSize">30dp</item>
+   </style>
+
+   <style name="actionbar_icon">
+	  <item name="android:layout_height">64dp</item>
+	  <item name="android:layout_width">64dp</item>
+	  <item name="android:textSize">20dp</item>
+	  <item name="android:textIsSelectable">false</item>
+	  <item name="android:singleLine">true</item>
+	  <item name="android:layout_weight">1</item>
+	  <item name="android:layout_gravity">center_vertical</item>
+	  <item name="android:layout_centerVertical">true</item>
+	  <item name="android:gravity">center_horizontal</item>
+   </style>
+
+   <style name="login_buttons_oc">
+
+	  <item name="android:paddingTop">20dp</item>
+	  <item name="android:paddingBottom">20dp</item>
+	  <item name="android:background">@drawable/button_set_dark3</item>
+	  <item name="android:scaleType">centerInside</item>
+	  <item name="android:layout_marginTop">2dp</item>
+   </style>
+
+   <style name="login_buttons_oc.left">
+	  <item name="android:layout_marginRight">1dp</item>
+   </style>
+
+   <style name="login_buttons_oc.right">
+	  <item name="android:layout_marginLeft">1dp</item>
+   </style>
+
+   <style name="login_buttons_oc.big">
+	  <item name="android:paddingTop">37dp</item>
+	  <item name="android:paddingBottom">37dp</item>
+   </style>
+
+   <style name="action_bar_button">
+	  <item name="android:padding">2dp</item>
+	  <item name="android:background">@drawable/button_set</item>
+	  <item name="android:scaleType">centerInside</item>
+   </style>
+
+   <style name="action_bar_button.tinted">
+	  <item name="android:padding">2dp</item>
+	  <item name="android:background">@drawable/button_set</item>
+	  <item name="android:scaleType">centerInside</item>
+   </style>
+
+   <style name="action_bar_button.activity_task_bar">
+	  <item name="android:paddingTop">28dp</item>
+	  <item name="android:paddingBottom">28dp</item>
+	  <item name="android:layout_weight">1</item>
+	  <item name="android:height">60dp</item>
+	  <item name="android:background">@drawable/button_set_dark</item>
+   </style>
+
+   <style name="action_bar_button.activity_task_bar.middle">
+	  <item name="android:background">@drawable/button_set_dark2</item>
+   </style>
+
+   <style name="action_row_button">
+	  <item name="android:background">@drawable/button_set</item>
+	  <item name="android:adjustViewBounds">true</item>
+   </style>
+
+   <style name="action_row_button.text">
+	  <item name="android:textIsSelectable">false</item>
+	  <item name="android:padding">2dp</item>
+	  <item name="android:layout_width">wrap_content</item>
+	  <item name="android:layout_height">match_parent</item>
+	  <item name="android:paddingLeft">6dp</item>
+	  <item name="android:paddingRight">6dp</item>
+   </style>
+
+   <style name="indication_light_imageview">
+	  <item name="android:layout_width">@dimen/col_indicator</item>
+	  <item name="android:layout_height">match_parent</item>
+	  <item name="android:layout_alignParentTop">true</item>
+	  <item name="android:layout_marginBottom">3dp</item>
+	  <item name="android:layout_marginTop">3dp</item>
+	  <item name="android:layout_marginLeft">5dp</item>
+	  <item name="android:layout_marginRight">5dp</item>
+	  <item name="android:src">@android:color/transparent</item>
+   </style>
+
+   <style name="line">
+	  <item name="android:layout_height">1dp</item>
+	  <item name="android:layout_width">match_parent</item>
+	  <item name="android:background">@drawable/divider</item>
+	  <item name="android:visibility">invisible</item>
+	  <item name="android:layout_alignParentBottom">true</item>
+   </style>
+
+   <style name="block_layer">
+	  <item name="android:layout_width">match_parent</item>
+	  <item name="android:layout_height">50dp</item>
+	  <item name="android:visibility">visible</item>
+	  <item name="android:layout_alignParentTop">true</item>
+   </style>
+
+   <style name="hkmKeyPad">
+	  <item name="bpDialogBackground">@drawable/hkmpad_background</item>
+	  <item name="bpTitleColor">@color/custom_keyboard_indicator_color</item>
+	  <item name="bpTextColor">@color/custom_text_color</item>
+	  <item name="bpDeleteIcon">@drawable/ic_backspace_custom</item>
+	  <item name="bpCheckIcon">@drawable/ic_check_custom</item>
+	  <item name="bpKeyBackground">@drawable/key_background_custom</item>
+	  <item name="bpButtonBackground">@drawable/button_background_custom</item>
+	  <item name="bpTitleDividerColor">@color/custom_keyboard_indicator_color</item>
+	  <item name="bpDividerColor">@color/custom_divider_color</item>
+	  <item name="bpKeyboardIndicatorColor">@color/custom_keyboard_indicator_color</item>
+   </style>
+   <!-- <style name="MyCustomBetterPickerTheme">
+  <item name="bpDialogBackground">@drawable/custom_dialog_background</item>
+  <item name="bpTitleColor">@color/custom_keyboard_indicator_color</item>
+  <item name="bpTextColor">@color/custom_text_color</item>
+  <item name="bpDeleteIcon">@drawable/ic_backspace_custom</item>
+  <item name="bpCheckIcon">@drawable/ic_check_custom</item>
+  <item name="bpKeyBackground">@drawable/key_background_custom</item>
+  <item name="bpButtonBackground">@drawable/button_background_custom</item>
+  <item name="bpTitleDividerColor">@color/custom_keyboard_indicator_color</item>
+  <item name="bpDividerColor">@color/custom_divider_color</item>
+  <item name="bpKeyboardIndicatorColor">@color/custom_keyboard_indicator_color</item>
+</style>-->
+
+
+</resources>

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:paddingBottom="@dimen/activity_vertical_margin"
+			android:paddingLeft="@dimen/activity_horizontal_margin"
+			android:paddingRight="@dimen/activity_horizontal_margin"
+			android:paddingTop="@dimen/activity_vertical_margin"
+			android:background="@drawable/task_bg">
+
+   <LinearLayout
+	  android:layout_marginTop="50dp"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:orientation="vertical">
+
+	  <RelativeLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+
+		 android:id="@+id/infobox">
+
+		 <TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/basic_info"
+			android:textSize="28sp"
+			android:gravity="center_vertical"
+			android:layout_centerVertical="true"/>
+
+		 <ImageButton
+			android:id="@+id/bn_pin_icon"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_map_marker"
+			android:cropToPadding="false"
+			android:layout_alignParentRight="true"
+			style="@style/action_bar_button"
+			android:layout_alignParentStart="false"
+			android:layout_alignParentEnd="true"
+			android:padding="10dp"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentTop="true"
+			/>
+	  </RelativeLayout>
+
+	  <RelativeLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content">
+
+		 <TextView
+			android:id="@+id/f1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/job_id_field"
+			android:textSize="18sp"
+			android:layout_alignParentLeft="true"
+			android:gravity="left"
+			android:paddingTop="10dp"
+			android:paddingBottom="10dp"
+			android:textAlignment="gravity"
+			android:textIsSelectable="true"/>
+
+		 <TextView
+
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:textColor="@color/white"
+			android:text="job_id_here"
+			android:textSize="18sp"
+			android:gravity="left"
+			android:paddingTop="10dp"
+			android:paddingBottom="10dp"
+			android:textAlignment="gravity"
+			android:textIsSelectable="true"
+			android:layout_toRightOf="@+id/f1"
+			android:id="@+id/ff_jobid"/>
+
+		 <TextView
+			android:id="@+id/f2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/project_id_field"
+			android:textSize="18sp"
+			android:gravity="left"
+			android:layout_alignParentStart="false"
+			android:paddingTop="10dp"
+			android:paddingBottom="10dp"
+			android:textAlignment="gravity"
+			android:textIsSelectable="true"
+			android:layout_below="@+id/f1"/>
+
+		 <TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="project_id_here"
+			android:textSize="18sp"
+			android:textColor="@color/white"
+			android:gravity="left"
+			android:paddingTop="10dp"
+			android:paddingBottom="10dp"
+			android:textAlignment="gravity"
+			android:textIsSelectable="true"
+			android:layout_below="@+id/ff_jobid"
+			android:layout_toRightOf="@+id/f2"
+			android:id="@+id/ff_projectid"/>
+
+		 <TextView
+			android:id="@+id/f3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/work_site_address_field"
+			android:textSize="18sp"
+			android:gravity="left"
+			android:layout_alignParentStart="false"
+			android:paddingTop="10dp"
+			android:paddingBottom="10dp"
+			android:textAlignment="gravity"
+			android:textIsSelectable="true"
+			android:layout_below="@+id/f2"/>
+
+		 <TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:textColor="@color/white"
+			android:text="the address will show in here"
+			android:textSize="18sp"
+			android:gravity="left"
+			android:paddingTop="10dp"
+			android:paddingBottom="10dp"
+			android:textAlignment="gravity"
+			android:textIsSelectable="true"
+
+			android:layout_below="@+id/ff_projectid"
+			android:layout_toRightOf="@+id/f3"
+			android:id="@+id/ff_address"
+			android:focusable="true"/>
+
+	  </RelativeLayout>
+
+
+	  <RelativeLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:id="@+id/bmbox">
+
+		 <TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/images_retrieved"
+			android:textSize="28sp"/>
+
+
+	  </RelativeLayout>
+
+	  <RelativeLayout
+		 android:id="@+id/twowaylistview_frame"
+		 android:layout_width="match_parent"
+		 android:layout_height="270dp">
+
+		 <org.lucasr.twowayview.TwoWayView
+			android:id="@+id/twowaylistview_retrieved_images"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:drawSelectorOnTop="false"
+			android:orientation="horizontal"
+			android:scrollbars="none"/>
+	  </RelativeLayout>
+
+	  <RelativeLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:id="@+id/empty_related_images">
+
+		 <LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="fill_parent"
+			android:orientation="horizontal"
+			android:layout_alignParentEnd="false"
+			android:layout_alignParentStart="false"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentBottom="true">
+
+			<ImageView
+			   android:layout_width="50dp"
+			   android:layout_height="50dp"
+			   android:src="@drawable/ic_alerts_and_states_error"
+			   android:padding="0dp"
+			   android:layout_centerHorizontal="true"
+			   android:scaleType="fitXY"/>
+
+			<TextView
+			   android:layout_width="wrap_content"
+			   android:layout_height="fill_parent"
+			   android:text="@string/notice_no_downloaded_pictures"
+			   android:gravity="center_vertical"
+			   android:textColor="@color/oc_yellow_2"/>
+		 </LinearLayout>
+
+	  </RelativeLayout>
+
+	  <RelativeLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:id="@+id/m_draw_map_bar">
+
+		 <TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/drawing_map"
+			android:textSize="28sp"/>
+	  </RelativeLayout>
+
+	  <RelativeLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:id="@+id/empty_draw_map">
+
+
+		 <LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="fill_parent"
+			android:orientation="horizontal"
+			android:layout_alignParentEnd="false"
+			android:layout_alignParentStart="false"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentBottom="true">
+
+			<ImageView
+			   android:layout_width="50dp"
+			   android:layout_height="50dp"
+			   android:src="@drawable/ic_alerts_and_states_error"
+			   android:padding="0dp"
+			   android:layout_centerHorizontal="true"
+			   android:scaleType="fitXY"/>
+
+			<TextView
+			   android:layout_width="wrap_content"
+			   android:layout_height="fill_parent"
+			   android:text="@string/notice_no_drew_images"
+			   android:gravity="center_vertical"
+			   android:textColor="@color/oc_yellow_2"/>
+		 </LinearLayout>
+
+	  </RelativeLayout>
+
+	  <RelativeLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:id="@+id/base_map_viewpager">
+
+		 <android.support.v4.view.ViewPager
+			android:id="@+id/pager"
+			android:layout_width="match_parent"
+			android:layout_height="400dp"
+			android:minHeight="300dp"></android.support.v4.view.ViewPager>
+
+		 <LinearLayout
+			android:orientation="horizontal"
+			android:gravity="center"
+			android:measureWithLargestChild="true"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="0"
+			android:layout_below="@+id/pager"
+			android:weightSum="4">
+
+
+			<Button
+			   android:layout_weight="1"
+			   style="@style/action_bar_button.activity_task_bar"
+			   android:id="@+id/goto_first"
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   android:text="@string/goto1st">
+
+			</Button>
+
+			<Button
+			   android:layout_weight="2"
+			   style="@style/action_bar_button.activity_task_bar.middle"
+			   android:id="@+id/edit_map"
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   android:text="@string/editmap"></Button>
+
+			<Button
+			   android:layout_weight="2"
+			   style="@style/action_bar_button.activity_task_bar.middle"
+			   android:id="@+id/start_map"
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   android:text="@string/startmap"></Button>
+
+			<Button
+			   android:layout_weight="1"
+			   style="@style/action_bar_button.activity_task_bar"
+			   android:id="@+id/goto_last"
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   android:text="@string/last"></Button>
+
+		 </LinearLayout>
+	  </RelativeLayout>
+
+	  <RelativeLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:id="@+id/wippbox"
+		 android:focusable="false"
+		 android:focusableInTouchMode="false">
+
+		 <TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/wipp"
+			android:textSize="28sp"
+			android:gravity="center_vertical"
+			android:layout_centerVertical="true"/>
+
+		 <ImageButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_take_pictures_app"
+			android:id="@+id/bn_add_camera"
+			android:cropToPadding="false"
+			style="@style/action_bar_button"
+			android:layout_toLeftOf="@+id/bn_add_photo"
+			android:padding="10dp"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentTop="true"/>
+
+		 <ImageButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_open_image_folder_internal"
+			android:id="@+id/bn_add_photo"
+			android:cropToPadding="false"
+			android:layout_alignParentRight="true"
+			style="@style/action_bar_button"
+			android:layout_alignParentStart="false"
+			android:layout_alignParentEnd="true"
+			android:padding="10dp"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentTop="true"/>
+	  </RelativeLayout>
+
+	  <RelativeLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:id="@+id/empty_site_photo">
+
+		 <LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="fill_parent"
+			android:orientation="horizontal"
+			android:layout_alignParentEnd="false"
+			android:layout_alignParentStart="false"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentBottom="true">
+
+			<ImageView
+			   android:layout_width="50dp"
+			   android:layout_height="50dp"
+			   android:src="@drawable/ic_alerts_and_states_error"
+			   android:padding="0dp"
+			   android:layout_centerHorizontal="true"
+			   android:scaleType="fitXY"/>
+
+			<TextView
+			   android:layout_width="wrap_content"
+			   android:layout_height="fill_parent"
+			   android:text="@string/notice_no_site_photo_taken"
+			   android:gravity="center_vertical"
+			   android:textColor="@color/oc_yellow_2"/>
+		 </LinearLayout>
+
+	  </RelativeLayout>
+
+	  <RelativeLayout
+		 android:id="@+id/site_photo_frame"
+		 android:layout_width="match_parent"
+		 android:layout_height="270dp">
+
+		 <org.lucasr.twowayview.TwoWayView
+			android:id="@+id/twowayview_list"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:drawSelectorOnTop="false"
+			android:orientation="horizontal"
+			android:scrollbars="none"/>
+	  </RelativeLayout>
+
+	  <RelativeLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:id="@+id/formbox1"
+		 android:focusable="false"
+		 android:focusableInTouchMode="false">
+
+		 <TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/form_linerecord"
+			android:textSize="28sp"
+			android:gravity="center_vertical"
+			android:layout_centerVertical="true"/>
+
+		 <ImageButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_task_cn"
+			android:id="@+id/form_1"
+			android:cropToPadding="false"
+			android:layout_alignParentRight="true"
+			style="@style/action_bar_button"
+			android:layout_alignParentStart="false"
+			android:layout_alignParentEnd="true"
+			android:padding="10dp"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentTop="true"/>
+	  </RelativeLayout>
+
+	  <RelativeLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:id="@+id/formbox2"
+		 android:focusable="false"
+		 android:focusableInTouchMode="false">
+
+		 <TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/form_questioniare"
+			android:textSize="28sp"
+			android:gravity="center_vertical"
+			android:layout_centerVertical="true"/>
+
+		 <ImageButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_task_cn"
+			android:id="@+id/form_2"
+			android:cropToPadding="false"
+			android:layout_alignParentRight="true"
+			style="@style/action_bar_button"
+			android:layout_alignParentStart="false"
+			android:layout_alignParentEnd="true"
+			android:padding="10dp"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentTop="true"/>
+	  </RelativeLayout>
+
+	  <RelativeLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:id="@+id/bottombox"
+		 android:focusable="false"
+		 android:focusableInTouchMode="false">
+
+		 <TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/completion"
+			android:textSize="28sp"
+			android:gravity="center_vertical"
+			android:layout_centerVertical="true"/>
+
+		 <!-- <TextView
+			android:textSize="28sp"
+			android:gravity="center_vertical"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentTop="true"
+
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:textColor="@color/white"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+			android:text="100%"/>-->
+		 <!-- android:layout_toLeftOf="@+id/submit_area"-->
+		 <ImageButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_send_package_cn"
+			android:cropToPadding="false"
+			android:layout_alignParentRight="true"
+			style="@style/action_bar_button"
+			android:layout_alignParentStart="false"
+			android:layout_alignParentEnd="true"
+			android:padding="10dp"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentTop="true"
+			android:id="@+id/submit_area"
+			android:visibility="gone"/>
+
+
+	  </RelativeLayout>
+
+	  <RelativeLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content">
+
+		 <Button
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			style="@style/action_bar_button.activity_task_bar.middle"
+			android:text="@string/submitjob"
+			android:id="@+id/submit_bottom"
+			/>
+
+	  </RelativeLayout>
+
+	  <LinearLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="100dp"></LinearLayout>
+   </LinearLayout>
+</ScrollView>

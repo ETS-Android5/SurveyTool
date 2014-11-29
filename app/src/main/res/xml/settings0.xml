@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+				  android:key="using_categories_in_root_screen"
+				  android:summary="Using Preference Categories"
+				  android:title="Categories">
+
+   <PreferenceCategory
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:key="meats_screen"
+	  android:summary="Preferences related to Meats"
+	  android:title="肉类">
+	  <CheckBoxPreference
+		 android:key="fish_selection_pref"
+		 android:summary="小心扎嗓子"
+		 android:title="鱼"/>
+	  <CheckBoxPreference
+		 android:key="lamb_selection_pref"
+		 android:summary="小肥羊吃多了不好"
+		 android:title="羊肉"/>
+	  <CheckBoxPreference
+		 android:key="chicken_selection_pref"
+		 android:summary="营养价值不够高"
+		 android:title="鸡肉"/>
+   </PreferenceCategory>
+   <PreferenceCategory
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:key="vegi_screen"
+	  android:summary="Preferences related to vegetable"
+	  android:title="蔬菜类">
+	  <CheckBoxPreference
+		 android:key="tomato_selection_pref"
+		 android:summary="西红柿可以炒鸡蛋⊙﹏⊙"
+		 android:title="西红柿"/>
+	  <CheckBoxPreference
+		 android:key="xilanhua_selection_pref"
+		 android:summary="营养价值很丰富"
+		 android:title="西兰花"/>
+   </PreferenceCategory>
+
+</PreferenceScreen>

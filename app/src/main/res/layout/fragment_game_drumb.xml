@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100"
+
+                android:scaleType="fitXY"
+                android:paddingTop="0dp"
+                android:gravity="center">
+
+    <ImageButton
+            android:id="@+id/rightbut"
+            android:layout_width="250dip"
+            android:layout_height="250dip"
+            android:layout_weight="50"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="0dp"
+            android:scaleType="fitStart"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/logo_ibike_"
+            android:focusableInTouchMode="false"
+    />
+    <!--android:hint="TOP"-->
+    <ImageButton
+            android:src="@drawable/logo_ibike_"
+            android:id="@+id/leftbut"
+            android:scaleType="fitStart"
+            android:layout_width="250dip"
+            android:layout_height="250dip"
+            android:layout_weight="50"
+            android:gravity="center"
+
+            android:layout_alignParentBottom="true"
+            android:focusableInTouchMode="false"
+            />
+</RelativeLayout>    <!-- android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"-->
+        <!--android:hint="BOTTOM"-->

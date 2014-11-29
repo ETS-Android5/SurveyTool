@@ -1,0 +1,220 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="horizontal">
+
+   <RelativeLayout
+	  android:id="@+id/bottomlayer"
+	  android:layout_width="match_parent"
+	  android:layout_height="50dp"
+	  android:focusableInTouchMode="true"
+	  android:orientation="horizontal">
+
+	  <LinearLayout
+		 android:layout_width="fill_parent"
+		 android:layout_height="fill_parent"
+		 android:orientation="horizontal">
+		 <!--label section-->
+		 <RelativeLayout
+			android:layout_width="@dimen/col_label"
+			android:layout_height="fill_parent">
+			<Button
+			   android:id="@+id/label_control_button_l"
+			   android:layout_width="fill_parent"
+			   android:layout_height="match_parent"
+			   android:background="@drawable/button_set"/>
+			<TextView
+			   android:id="@+id/point_label"
+			   style="@style/b.yellow2"
+			   android:layout_width="fill_parent"
+			   android:layout_marginRight="2dp"
+			   android:gravity="center"
+			   android:hint="----"/>
+		 </RelativeLayout>
+		 <!--indicator section-->
+		 <ImageView
+			android:id="@+id/indication"
+			style="@style/indication_light_imageview"
+			android:background="@color/indicator_disabled"/>
+		 <!--depth section-->
+		 <RelativeLayout
+			android:layout_width="@dimen/col_depth"
+			android:layout_height="fill_parent">
+
+			<TextView
+			   android:id="@+id/depth"
+			   style="@style/b.fieldsdisplay.depth"/>
+
+			<Button
+			   android:id="@+id/label_control_button_c"
+			   android:layout_width="fill_parent"
+			   android:layout_height="match_parent"
+			   android:background="@drawable/button_set"/>
+		 </RelativeLayout>
+		 <!--distance A section-->
+		 <RelativeLayout
+			android:layout_width="@dimen/col_basic"
+			android:layout_height="fill_parent">
+
+			<TextView
+			   android:id="@+id/distance_from_a"
+			   style="@style/b.fieldsdisplay"/>
+
+			<Button
+			   android:id="@+id/label_control_button_a"
+			   android:layout_width="fill_parent"
+			   android:layout_height="match_parent"
+			   android:background="@drawable/button_set"/>
+		 </RelativeLayout>
+		 <!--distance B section-->
+		 <RelativeLayout
+			android:layout_width="@dimen/col_basic"
+			android:layout_height="fill_parent">
+
+			<TextView
+			   android:id="@+id/distance_from_b"
+			   style="@style/b.fieldsdisplay"/>
+
+			<Button
+			   android:id="@+id/label_control_button_b"
+			   android:layout_width="fill_parent"
+			   android:layout_height="match_parent"
+			   android:background="@drawable/button_set"/>
+		 </RelativeLayout>
+		 <!--distance cable radius section-->
+		 <RelativeLayout
+			android:layout_width="@dimen/col_radius"
+			android:layout_height="fill_parent">
+
+			<TextView
+			   android:id="@+id/cable_radius"
+			   style="@style/b.fieldsdisplay.cable"/>
+
+			<Button
+			   android:id="@+id/label_control_button_d"
+			   android:layout_width="fill_parent"
+			   android:layout_height="match_parent"
+			   android:background="@drawable/button_set"/>
+		 </RelativeLayout>
+	  </LinearLayout>
+	  <!--row modify section-->
+	  <ImageButton
+		 android:id="@+id/modi"
+		 style="@style/action_bar_button"
+		 android:layout_width="50dp"
+		 android:layout_height="match_parent"
+		 android:layout_alignParentRight="true"
+		 android:adjustViewBounds="false"
+		 android:src="@drawable/ic_editor_pencil_pen_edit_write_"/>
+
+	  <RelativeLayout
+		 android:id="@+id/line_cue"
+		 style="@style/line"></RelativeLayout>
+   </RelativeLayout>
+
+
+   <RelativeLayout
+	  android:id="@+id/coloring_layer"
+	  style="@style/block_layer"></RelativeLayout>
+
+   <RelativeLayout
+	  android:id="@+id/layer_editing_fields"
+	  android:layout_width="match_parent"
+	  android:layout_height="50dp"
+	  android:layout_alignParentEnd="false"
+	  android:layout_alignParentStart="false"
+	  android:layout_alignParentTop="true"
+	  android:background="@color/perms_costs_money"
+	  android:orientation="horizontal">
+
+	  <LinearLayout
+		 android:orientation="horizontal"
+		 android:layout_width="fill_parent"
+		 android:layout_height="fill_parent">
+
+		 <ImageButton
+			android:id="@+id/b_yes"
+			style="@style/action_bar_button"
+			android:layout_width="50dp"
+			android:layout_height="match_parent"
+			android:layout_alignParentLeft="true"
+			android:adjustViewBounds="false"
+			android:focusableInTouchMode="false"
+			android:src="@drawable/i_accept"/>
+
+		 <ImageButton
+			android:id="@+id/b_no"
+			style="@style/action_bar_button"
+			android:layout_width="50dp"
+			android:layout_height="match_parent"
+			android:layout_toRightOf="@+id/b_yes"
+			android:adjustViewBounds="false"
+			android:focusableInTouchMode="false"
+			android:src="@drawable/i_cancel"/>
+	  </LinearLayout>
+   </RelativeLayout>
+
+   <RelativeLayout
+	  android:id="@+id/toplayer"
+	  android:layout_width="match_parent"
+	  android:layout_height="50dp"
+	  android:background="@color/holo_green_light"
+	  android:clickable="false"
+	  android:orientation="horizontal"
+	  android:padding="0dp">
+
+	  <LinearLayout
+		 android:orientation="horizontal"
+		 android:layout_width="fill_parent"
+		 android:layout_height="fill_parent">
+
+		 <ImageButton
+			android:id="@+id/iv_insert"
+			style="@style/action_bar_button"
+			android:layout_width="50dp"
+			android:layout_height="match_parent"
+			android:adjustViewBounds="false"
+			android:src="@drawable/plussign"/>
+
+		 <ImageButton
+			android:id="@+id/iv_linecut"
+			style="@style/action_bar_button"
+			android:layout_width="50dp"
+			android:layout_height="match_parent"
+			android:adjustViewBounds="false"
+			android:src="@drawable/ic_disconnected"/>
+
+		 <ImageButton
+			android:id="@+id/iv_remove_row_control"
+			style="@style/action_bar_button"
+			android:layout_width="50dp"
+			android:layout_height="match_parent"
+			android:adjustViewBounds="false"
+			android:src="@drawable/trash"/>
+
+		 <Button
+			android:visibility="invisible"
+			android:id="@+id/iv_insertc"
+			style="@style/action_row_button.text"
+			android:background="@drawable/button_set"
+			android:text="@string/label_pt_insert"/>
+
+		 <ImageButton
+			android:visibility="invisible"
+			android:id="@+id/iv_edit"
+			style="@style/action_bar_button"
+			android:layout_width="50dp"
+			android:layout_height="match_parent"
+			android:adjustViewBounds="false"
+			android:src="@drawable/ic_content_edit"/>
+
+		 <ImageButton
+			android:id="@+id/iv_ok_control"
+			style="@style/action_bar_button"
+			android:layout_width="50dp"
+			android:layout_height="match_parent"
+			android:adjustViewBounds="true"
+			android:src="@drawable/ic_arrow_p"/>
+	  </LinearLayout>
+   </RelativeLayout>
+</RelativeLayout>

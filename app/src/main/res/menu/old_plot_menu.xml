@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu  xmlns:app="http://schemas.android.com/apk/res-auto"
+	   xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:icon="@drawable/ruler"
+            android:id="@+id/act_plots"
+            android:title="Plot S"
+            android:orderInCategory="10"
+            app:showAsAction="never"/>
+    <item
+            android:icon="@drawable/ruler"
+            android:id="@+id/act_plotp"
+            android:title="Plot Pager"
+            android:orderInCategory="20"
+            app:showAsAction="never"/>
+    <item
+            android:icon="@drawable/ruler"
+            android:id="@+id/act_plotjs"
+            android:title="Plot JS"
+            android:orderInCategory="30"
+            app:showAsAction="never"/>
+
+    <item
+            android:id="@+id/action_enterdata"
+            android:title="Enter Result"
+            android:orderInCategory="30"
+            app:showAsAction="never"
+            />
+
+</menu>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:background="@drawable/listviewbackground">
+
+   <TextView
+	  android:id="@+id/text"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:gravity="center_vertical|center_horizontal"
+	  android:textAppearance="?android:attr/textAppearanceMedium"
+	  android:text="dynamic text in here"
+	  android:textColor="@color/white"
+	  />
+
+   <RelativeLayout
+	  android:layout_width="match_parent"
+	  android:layout_height="match_parent">
+
+	  <RelativeLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 android:layout_alignParentTop="true">
+
+		 <ImageView
+			android:id="@+id/location_map_view"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+
+			/>
+	  </RelativeLayout>
+
+	  <LinearLayout
+		 android:orientation="vertical"
+		 android:layout_width="wrap_content"
+		 android:layout_height="match_parent"
+		 android:gravity="bottom"
+		 android:layout_alignParentEnd="true"
+		 android:layout_alignParentRight="true">
+		 <RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/button_display_1"
+			android:padding="5dp"
+			>
+
+
+			<Button
+			   android:id="@+id/review_image"
+			   android:layout_width="200dp"
+			   android:layout_height="55dp"
+			   android:layout_alignParentTop="false"
+			   android:visibility="visible"
+			   android:background="@drawable/onecall_custom_btn_default_holo_dark"/>
+
+			<LinearLayout
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   android:orientation="horizontal"
+			   android:layout_alignParentTop="true"
+			   android:layout_alignParentLeft="true"
+			   android:layout_marginTop="5dp"
+			   android:layout_marginLeft="5dp">
+
+			   <ImageView
+				  android:layout_width="45dp"
+				  android:layout_height="45dp"
+				  android:src="@drawable/ic_target"
+				  />
+
+			   <TextView
+				  android:id="@+id/button_text"
+				  android:layout_width="150dp"
+				  android:layout_height="45dp"
+				  android:gravity="fill_vertical"
+				  android:textAppearance="?android:attr/textAppearanceMedium"
+				  android:text="Review Recent Draw Map"
+				  android:textColor="@color/white"
+				  />
+			</LinearLayout>
+
+		 </RelativeLayout>
+
+		 <RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/edit_button"
+			android:padding="5dp"
+			android:visibility="gone">
+
+			<Button
+			   android:id="@+id/button3432423"
+			   android:layout_width="200dp"
+			   android:layout_height="55dp"
+			   android:layout_alignParentTop="false"
+			   android:visibility="visible"
+			   android:background="@drawable/onecall_custom_btn_default_holo_dark"/>
+
+			<LinearLayout
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   android:orientation="horizontal"
+			   android:layout_alignParentTop="true"
+			   android:layout_alignParentLeft="true"
+			   android:layout_marginTop="5dp"
+			   android:layout_marginLeft="5dp"
+			   android:clickable="true">
+
+			   <ImageView
+				  android:layout_width="45dp"
+				  android:layout_height="45dp"
+				  android:src="@drawable/ic_target"/>
+
+			   <TextView
+				  android:id="@+id/textView"
+				  android:layout_width="150dp"
+				  android:layout_height="45dp"
+				  android:gravity="fill_vertical"
+				  android:textAppearance="?android:attr/textAppearanceMedium"
+				  android:text="Review Recent Draw Map"
+				  android:textColor="@color/white"/>
+			</LinearLayout>
+		 </RelativeLayout>
+	  </LinearLayout>
+
+
+   </RelativeLayout>
+
+</LinearLayout>

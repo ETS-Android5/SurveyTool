@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:title="@string/title_intent_preference"
+   android:summary="@string/summary_intent_preference"
+   >
+    <PreferenceCategory
+        android:key="pref_group_account"
+        android:title="@string/pref_group_account">
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="pre_login"
+            android:summary="@string/pre_login_sum"
+            android:title="@string/pre_login" />
+        <EditTextPreference
+            android:inputType="textPassword"
+            android:defaultValue=""
+            android:key="pre_password"
+            android:summary="@string/pre_password_sum"
+            android:title="@string/pre_password" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_group_rendering"
+        android:title="@string/pref_group_rendering">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pre_label"
+            android:summary="@string/pre_label_sum"
+            android:title="@string/pre_label" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pre_cs"
+            android:summary="@string/pre_label_sum"
+            android:title="@string/pre_label" />
+    </PreferenceCategory>
+
+   <!-- <ListPreference
+        android:dependency="pref_sync"
+        android:key="pref_syncConnectionType"
+        android:title="@string/pref_syncConnectionType"
+        android:dialogTitle="@string/pref_syncConnectionType"
+        android:entries="@array/pref_syncConnectionTypes_entries"
+        android:entryValues="@array/pref_syncConnectionTypes_values"
+        android:defaultValue="@string/pref_syncConnectionTypes_default" />-->
+
+</PreferenceScreen>

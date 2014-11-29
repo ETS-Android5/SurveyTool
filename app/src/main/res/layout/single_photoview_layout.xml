@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_width="180dp"
+			  android:layout_height="270dp"
+			  android:orientation="vertical">
+
+   <RelativeLayout
+	  android:background="@drawable/listviewbackground"
+	  android:layout_width="match_parent"
+	  android:layout_height="match_parent">
+
+	  <ImageView
+		 android:id="@+id/photo_view_image_apply"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 android:gravity="center_horizontal"
+		 android:padding="5dp"
+		 android:text="Simple String List"
+		 android:textSize="18sp"
+		 android:scaleType="fitCenter"
+		 android:focusableInTouchMode="false"
+		 android:focusable="false"/>
+
+	  <TextView
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:padding="5dp"
+		 android:text="___description__"
+		 android:textSize="15sp"
+		 android:paddingTop="20dp"
+		 android:paddingBottom="20dp"
+		 android:textIsSelectable="false"
+		 android:layout_alignParentBottom="true"
+		 android:id="@+id/photo_view_description"
+		 android:background="@color/shadow_description"
+		 android:layout_alignBottom="@+id/photo_view_image_apply"
+		 android:textColor="@color/custom_text_color_normal"/>
+
+   </RelativeLayout>
+
+</LinearLayout>

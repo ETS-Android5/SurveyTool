@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_content_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:singleLine="false"
+            android:text="displacc text here"
+            android:textAlignment="gravity"
+            android:textColor="@color/keyguard_avatar_frame_shadow_color"
+            android:textIsSelectable="false"
+            android:textSize="30dp"
+            android:typeface="normal"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edmeter"
+            style="@style/editText.Numberic.bigtext"
+            android:layout_width="100dp" />
+        <Button
+            android:id="@+id/setting_letter_button"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:background="@drawable/button_set"
+            android:text="add #"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"></Button>
+        <Button
+            android:id="@+id/setting_sharp_button"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:background="@drawable/button_set"
+            android:text="add #"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>

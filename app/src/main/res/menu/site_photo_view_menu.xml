@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:android="http://schemas.android.com/apk/res/android">
+   <item
+	  android:id="@+id/remove_site_pic"
+	  android:orderInCategory="1"
+	  app:showAsAction="collapseActionView"
+	  android:title="@string/remove"/>
+   <item
+	  android:id="@+id/edit_label"
+	  android:icon="@drawable/ic_editor_pencil_pen_edit_write_"
+	  android:orderInCategory="2"
+	  app:showAsAction="always"
+	  android:title="@string/edit_label"/>
+   <item
+	  android:id="@+id/edit_tag"
+	  android:icon="@drawable/ic_tag_74_256"
+	  android:orderInCategory="3"
+	  app:showAsAction="always"
+	  android:title="@string/edit_tag"/>
+   <!--   //photo_terms-->
+</menu>

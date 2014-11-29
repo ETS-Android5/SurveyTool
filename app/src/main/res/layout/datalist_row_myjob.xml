@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="horizontal"
+			  android:layout_width="match_parent"
+			  android:layout_height="50dp"
+			  android:weightSum="3">
+
+   <TextView
+	  android:textSize="22dp"
+	  android:id="@+id/post_id"
+	  android:layout_width="@dimen/col_jjobid"
+	  android:layout_height="match_parent"
+	  android:text="1"
+	  android:gravity="center_vertical"/>
+
+   <TextView
+	  android:textSize="22dp"
+	  android:id="@+id/project_id"
+	  android:layout_width="@dimen/col_jprojectid"
+	  android:layout_height="match_parent"
+	  android:text="DEMOED"
+	  android:gravity="center_vertical"/>
+
+   <TextView
+	  android:textSize="22dp"
+	  android:id="@+id/status"
+	  android:layout_width="@dimen/col_jstatus"
+	  android:layout_height="match_parent"
+	  android:text="DEMOED"
+	  android:gravity="center_vertical"/>
+
+   <RelativeLayout
+	  android:layout_weight="1"
+	  android:layout_width="@dimen/col_jstatus"
+	  android:layout_height="match_parent"
+	  android:gravity="right">
+
+	  <LinearLayout
+		 android:layout_width="wrap_content"
+		 android:layout_height="match_parent"
+		 android:orientation="horizontal">
+
+		 <TextView
+			android:textSize="20dp"
+			android:id="@+id/progressbar"
+			android:layout_width="@dimen/col_jprogress"
+			android:layout_height="match_parent"
+			android:text="this is demo text"
+			android:gravity="center_vertical"/>
+
+		 <ImageButton
+			android:id="@+id/trash_btn"
+			android:layout_width="@dimen/col_jtrash"
+			android:layout_height="match_parent"
+			style="@style/action_row_button"
+			android:src="@drawable/trash"/>
+	  </LinearLayout>
+
+   </RelativeLayout>
+
+</LinearLayout>

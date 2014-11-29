@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+   <PreferenceCategory
+	  android:title="Project Info">
+
+	  <EditTextPreference
+		 android:key="@string/jp_id"
+		 android:title="Project No"
+		 android:summary="The full project no"
+		 android:dialogTitle="Setup the new project no."/>
+
+	  <EditTextPreference
+		 android:key="@string/jb_location"
+		 android:title="Job Location"
+		 android:summary="The work site"
+		 android:dialogTitle="The work site location"/>
+
+	  <EditTextPreference
+		 android:key="@string/cp_no"
+		 android:title="CP Number"
+		 android:summary="The CP license"
+		 android:dialogTitle="Update the valid certificate license number"/>
+
+   </PreferenceCategory>
+</PreferenceScreen>

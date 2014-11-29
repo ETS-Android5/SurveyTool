@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu  xmlns:app="http://schemas.android.com/apk/res-auto"
+	   xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/act_reset"
+        android:icon="@drawable/trash"
+        android:orderInCategory="14"
+        app:showAsAction="always"
+        android:title="Clear Boundary" />
+    <item
+        android:id="@+id/act_cancel"
+        android:icon="@drawable/ic_curve_return"
+        android:orderInCategory="15"
+        app:showAsAction="always"
+        android:title="Undo" />
+
+    <item
+        android:id="@+id/act_accept"
+        android:icon="@drawable/i_accept"
+        android:orderInCategory="40"
+        app:showAsAction="always"
+        android:title="Save" />
+
+</menu>

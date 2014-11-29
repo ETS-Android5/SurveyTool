@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="result_view">#ffe5b351</color>
+   <color name="result_text">#ffe58457</color>
+   <color name="status_text">#ffa0e5d1</color>
+   <color name="result_minor_text">#ffc69948</color>
+   <color name="transparent">#ffc69900</color>
+
+   <color name="dot_basic_dark_face_normal">#ff6f5ceb</color>
+   <color name="dot_basic_dark_face_active">#ff3317eb</color>
+   <color name="dot_basic_dark_face_pressed">#ff3317eb</color>
+   <color name="dot_basic_dark_cross_normal">#fffcd2ff</color>
+   <color name="dot_basic_dark_cross_pressed">#ffd4ebe9</color>
+   <color name="dot_intercept_dark_face_normal">#ff78caeb</color>
+   <color name="dot_intercept_dark_face_active">#ff83eb2a</color>
+   <color name="dot_intercept_dark_face_selected">#ffeb3117</color>
+   <color name="dot_intercept_dark_cross_normal">#ff198213</color>
+   <color name="dot_intercept_dark_cross_active">#ffffec35</color>
+   <color name="dot_intercept_dark_cross_selected">#ffffeef3</color>
+
+   <color name="safe_mode_text">#80ffffff</color>
+   <color name="white">#ffffffff</color>
+   <color name="black">#ff000000</color>
+   <color name="selectblack">#ff3c0f4f</color>
+   <color name="selectblack2">#ff300030</color>
+   <color name="selectblack3">#cc300030</color>
+   <color name="selectblacknormalstart">#604a0e5c</color>
+   <color name="selectblacklight">#ff5c1071</color>
+   <color name="selectlightfade">#215c1071</color>
+   <color name="selectlightsolid">#ff5c1071</color>
+   <color name="taskbackground">#ff16061c</color>
+   <color name="background_dark">#ff000000</color>
+   <color name="background_light">#ffffffff</color>
+
+   <color name="bright_foreground_dark_disabled">#80ffffff</color>
+   <color name="bright_foreground_light_disabled">#80000000</color>
+
+   <color name="dim_foreground_dark">#bebebe</color>
+   <color name="dim_foreground_dark_disabled">#80bebebe</color>
+   <color name="dim_foreground_dark_inverse">#323232</color>
+   <color name="dim_foreground_dark_inverse_disabled">#80323232</color>
+   <color name="hint_foreground_dark">#808080</color>
+   <color name="dim_foreground_light">#323232</color>
+   <color name="dim_foreground_light_disabled">#80323232</color>
+   <color name="dim_foreground_light_inverse">#bebebe</color>
+   <color name="dim_foreground_light_inverse_disabled">#80bebebe</color>
+   <color name="hint_foreground_light">#808080</color>
+   <color name="highlighted_text_dark">#9983CC39</color>
+   <color name="highlighted_text_light">#9983CC39</color>
+   <color name="link_text_dark">#5c5cff</color>
+   <color name="link_text_light">#0000ee</color>
+   <color name="suggestion_highlight_text">#177bbd</color>
+   <color name="label_intent">#ff666666</color>
+
+   <!-- For date picker widget -->
+   <drawable name="selected_night_background">#ff3c35b0</drawable>
+   <drawable name="selected_day_background">#ff0092f4</drawable>
+   <drawable name="select_transparent">#fffdf3c2</drawable>
+   <drawable name="divider">#e69310</drawable>
+   <drawable name="task_bg">@color/taskbackground</drawable>
+
+   <!-- For settings framework -->
+   <color name="lighter_gray">#ddd</color>
+   <color name="darker_gray">#aaa</color>
+
+   <!-- For security permissions -->
+   <color name="perms_dangerous_grp_color">#33b5e5</color>
+   <color name="perms_dangerous_perm_color">#33b5e5</color>
+   <color name="shadow">#cc222222</color>
+   <color name="perms_costs_money">#ffffbb33</color>
+
+
+   <!-- keyguard tab -->
+   <color name="keyguard_text_color_normal">#ffffff</color>
+   <color name="keyguard_text_color_unlock">#a7d84c</color>
+   <color name="keyguard_text_color_soundoff">#ffffff</color>
+   <color name="keyguard_text_color_soundon">#e69310</color>
+   <color name="keyguard_text_color_decline">#fe0a5a</color>
+
+   <!-- keyguard clock -->
+   <color name="lockscreen_clock_background">#ffffffff</color>
+   <color name="lockscreen_clock_foreground">#ffffffff</color>
+   <color name="lockscreen_clock_am_pm">#ffffffff</color>
+   <color name="lockscreen_owner_info">#ff9a9a9a</color>
+
+   <!-- keyguard overscroll widget pager -->
+   <color name="kg_multi_user_text_active">#ffffffff</color>
+   <color name="kg_multi_user_text_inactive">#ff808080</color>
+   <color name="kg_widget_pager_gradient">#ffffffff</color>
+
+   <!-- FaceLock -->
+   <color name="facelock_spotlight_mask">#CC000000</color>
+
+   <!-- For holo theme -->
+   <drawable name="screen_background_holo_light">#fff3f3f3</drawable>
+   <drawable name="screen_background_holo_dark">#ff000000</drawable>
+   <drawable name="button_pressed_holo">#6633b5e5</drawable>
+   <drawable name="button_enabled_holo">#0133b5e5</drawable>
+   <drawable name="button_selected_holo">#c01fddff</drawable>
+   <color name="background_holo_dark">#ff000000</color>
+   <color name="background_holo_light">#fff3f3f3</color>
+
+   <!-- color configurations for Pattern Node Class -->
+   <color name="indicator_disabled">#ff4c4c4c</color>
+   <color name="indicator_enabled_result_positive_changing">#ff30b52a</color>
+   <color name="indicator_enabled_result_positive">#ff34ff0a</color>
+   <color name="indicator_enabled_result_negative">#ffde3163</color>
+
+
+   <color name="dim_foreground_holo_dark">#bebebe</color>
+   <color name="dim_foreground_disabled_holo_dark">#80bebebe</color>
+   <color name="dim_foreground_inverse_holo_dark">#323232</color>
+   <color name="dim_foreground_inverse_disabled_holo_dark">#80323232</color>
+   <color name="hint_foreground_holo_dark">#808080</color>
+   <color name="dim_foreground_holo_light">#323232</color>
+   <color name="dim_foreground_disabled_holo_light">#80323232</color>
+   <color name="dim_foreground_inverse_holo_light">#bebebe</color>
+   <color name="dim_foreground_inverse_disabled_holo_light">#80bebebe</color>
+   <color name="hint_foreground_holo_light">#808080</color>
+   <color name="highlighted_text_holo_dark">#6633b5e5</color>
+   <color name="highlighted_text_holo_light">#6633b5e5</color>
+   <color name="link_text_holo_dark">#5c5cff</color>
+   <color name="link_text_holo_light">#0000ee</color>
+   <color name="legend_list_not_selected">#ff173c58</color>
+   <color name="legend_list_selected">#ffefff4d</color>
+   <color name="legend_list_selected_background">#ff333333</color>
+   <!-- Group buttons -->
+   <eat-comment/>
+   <color name="group_button_dialog_pressed_holo_dark">#46c5c1ff</color>
+   <color name="group_button_dialog_focused_holo_dark">#2699cc00</color>
+
+   <color name="group_button_dialog_pressed_holo_light">#ffffffff</color>
+   <color name="group_button_dialog_focused_holo_light">#4699cc00</color>
+
+   <!-- Highlight colors for the legacy themes -->
+   <eat-comment/>
+   <color name="legacy_pressed_highlight">#fffeaa0c</color>
+   <color name="legacy_selected_highlight">#fff17a0a</color>
+   <color name="legacy_long_pressed_highlight">#ffffffff</color>
+
+   <!-- General purpose colors for Holo-themed elements -->
+   <eat-comment/>
+   <!-- original online and offline colors 2cbc9c 00ff04- ff0016-->
+   <color name="holo_online">#d000ff04</color>
+   <color name="holo_offline">#ffe54f45</color>
+   <!-- A light Holo shade of blue -->
+   <color name="holo_blue_light">#ff33b5e5</color>
+   <!-- A light Holo shade of green -->
+   <color name="holo_green_light">#ff99cc00</color>
+   <!-- A light Holo shade of red -->
+   <color name="holo_red_light">#ffff4444</color>
+   <!-- A dark Holo shade of blue -->
+   <color name="holo_blue_dark">#ff0099cc</color>
+   <!-- A dark Holo shade of green -->
+   <color name="holo_green_dark">#ff669900</color>
+   <!-- A dark Holo shade of red -->
+   <color name="holo_red_dark">#ffcc0000</color>
+   <!-- A Holo shade of purple -->
+   <color name="holo_purple">#ffaa66cc</color>
+   <!-- A light Holo shade of orange -->
+   <color name="holo_orange_light">#ffffbb33</color>
+   <!-- A dark Holo shade of orange -->
+   <color name="holo_orange_dark">#ffff8800</color>
+   <!-- A really bright Holo shade of blue -->
+   <color name="holo_blue_bright">#ff00ddff</color>
+
+   <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+   <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+   <color name="shadow_description">#89181014</color>
+
+   <!-- Keyguard colors -->
+   <color name="keyguard_avatar_frame_color">#ffffffff</color>
+   <color name="keyguard_avatar_frame_shadow_color">#80000000</color>
+   <color name="keyguard_avatar_nick_color">#ffffffff</color>
+   <color name="keyguard_avatar_frame_pressed_color">#ff35b5e5</color>
+   <color name="oc_red">#ffff3520</color>
+   <color name="oc_yellow_1">#ffffc019</color>
+   <color name="oc_yellow_2">#ffdda500</color>
+   <color name="oc_yellow_3">#fff38d25</color>
+   <color name="oc_blue_1">#ff000fff</color>
+   <color name="oc_blue_2">#ff007fff</color>
+   <color name="oc_green_1">#ffa5dd00</color>
+   <color name="oc_green_2">#ff4a9500</color>
+   <color name="oc_dark">#ff000000</color>
+   <color name="oc_sb">#ffef077b</color>
+
+   <color name="custom_text_color_normal">#ffffffff</color>
+   <color name="custom_text_color_disabled">#ffb2b2b2</color>
+   <color name="custom_divider_color">#ffffffff</color>
+   <color name="custom_button_background">#00000000</color>
+   <color name="custom_button_background_pressed">#ffcc6600</color>
+   <color name="custom_key_background">#00000000</color>
+   <color name="custom_key_background_pressed">#ffcc6600</color>
+   <color name="custom_keyboard_indicator_color">#ffcc6600</color>
+</resources>

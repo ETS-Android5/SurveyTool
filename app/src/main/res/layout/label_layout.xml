@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_width="fill_parent"
+			  android:layout_height="fill_parent"
+			  android:orientation="vertical"
+   >
+
+   <LinearLayout
+	  android:layout_width="match_parent"
+	  android:layout_height="100dp"
+	  android:orientation="horizontal"
+	  android:background="@color/label_intent">
+
+	  <RelativeLayout
+		 android:layout_width="200dp"
+		 android:layout_height="match_parent">
+
+		 <TextView
+			android:id="@+id/label_display"
+			android:layout_width="fill_parent"
+			android:layout_height="match_parent"
+			android:layout_alignParentStart="true"
+			android:gravity="center_horizontal|fill_vertical"
+			android:singleLine="false"
+			android:text="XXX"
+			android:textAlignment="gravity"
+			android:textColor="@color/keyguard_avatar_frame_shadow_color"
+			android:textIsSelectable="false"
+			android:textSize="40dp"
+			android:typeface="normal"></TextView>
+
+		 <Button
+			android:id="@+id/label_display_control_button"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_alignParentLeft="false"
+			android:layout_alignParentStart="true"
+			android:background="@drawable/button_set"
+			android:gravity="center"/>
+	  </RelativeLayout>
+
+	  <LinearLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="100dp"
+		 android:orientation="vertical">
+
+		 <Spinner
+			android:id="@+id/areaspinner"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:drawSelectorOnTop="true"
+			android:padding="5dip"
+			android:paddingLeft="10dip"/>
+
+		 <TextView
+			android:id="@+id/radius_bar"
+			android:layout_width="match_parent"
+			android:layout_height="fill_parent"
+			android:text="Other info."/>
+	  </LinearLayout>
+   </LinearLayout>
+
+   <TabHost
+	  android:id="@android:id/tabhost"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:background="@drawable/background3">
+
+	  <LinearLayout
+		 android:layout_width="fill_parent"
+		 android:layout_height="fill_parent"
+		 android:orientation="vertical">
+
+		 <TabWidget
+			android:id="@android:id/tabs"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="0"
+			android:orientation="horizontal"
+			android:tabStripEnabled="false"/>
+
+		 <FrameLayout
+			android:id="@android:id/tabcontent"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_weight="0"/>
+
+		 <android.support.v4.view.ViewPager
+			android:id="@+id/viewpager"
+			android:layout_width="fill_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"/>
+	  </LinearLayout>
+   </TabHost>
+</LinearLayout>

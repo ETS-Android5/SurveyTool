@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+   xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <header
+	  android:fragment="com.hkm.Application.OCPreference$PrefsAccountInfoFragment"
+	  android:icon="@drawable/ic_task_cn"
+	  android:title="Basic Account Info"
+	  />
+
+   <header
+	  android:fragment="com.hkm.Application.OCPreference$PrefsDrawMapApplicationSettingsFragment"
+	  android:icon="@drawable/ic_task_cn"
+	  android:title="Draw Map Settings"
+	  android:summary="A list user preference for the draw map editor.">
+	  <!-- Arbitrary key/value pairs can be included with a header as
+		 arguments to its fragment. -->
+	  <extra
+		 android:name="someKey"
+		 android:value="someHeaderValue"/>
+   </header>
+   <!--//question_exit_draw_map_application-->
+   <header
+	  android:fragment="com.hkm.Application.OCPreference$PrefsNotificationsFragment"
+	  android:icon="@drawable/ic_task_cn"
+	  android:title="Application Notifications"
+	  android:summary="Notification preferences for this app">
+	  <!-- Arbitrary key/value pairs can be included with a header as
+		 arguments to its fragment. -->
+	  <extra
+		 android:name="someKey"
+		 android:value="someHeaderValue"/>
+   </header>
+   <header
+	  android:icon="@drawable/ic_task_cn"
+	  android:title="My Account"
+	  android:summary="Launches a web portal to manage your personal account data."
+	  android:fragment="com.hkm.Application.OCPreference$PrefsNewWebView">
+	  <!--	  <intent
+			 android:action="android.intent.action.VIEW"
+			 android:data="http://onecallapp.imusictech.net/wp-login.php"/>-->
+   </header>
+
+</preference-headers>
