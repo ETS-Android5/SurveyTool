@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="row_deep">Depth</string>
+   <string name="row_d_a">Distance A</string>
+   <string name="row_d_b">Distance B</string>
+</resources>

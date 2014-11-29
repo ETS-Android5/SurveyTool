@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="map_control_items">
+	  <item>@string/mapexplore</item>
+	  <item>@string/proposetrailpit</item>
+	  <item>@string/surveyboundary</item>
+	  <item>@string/enterresult</item>
+	  <item>@string/mapreview</item>
+	  <item>@string/definepoints</item>
+	  <item>@string/genimage</item>
+   </string-array>
+   <array name="icons">
+	  <item>@drawable/ic_1403167956_map_location_service_</item>
+	  <item>@drawable/ic_add_tp</item>
+	  <item>@drawable/ic_sb_map</item>
+	  <item>@drawable/ic_1388483807_edit_property_</item>
+	  <item>@drawable/ic_eye_24_128</item>
+	  <item>@drawable/ic_target</item>
+	  <item>@drawable/ic_1403169419_export</item>
+   </array>
+   <string-array name="photo_terms">
+	  <item>Location Photo</item>
+	  <item>Setup Locator</item>
+	  <item>Trail Pit</item>
+	  <item>Manhole</item>
+	  <item>Cable</item>
+	  <item>Work in progress</item>
+	  <item>Survey in progress</item>
+	  <item>Locating in progress</item>
+   </string-array>
+</resources>

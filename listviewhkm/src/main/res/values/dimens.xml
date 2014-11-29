@@ -1,0 +1,23 @@
+<resources>
+   <!-- Default screen margins, per the Android Design guidelines. -->
+   <dimen name="activity_horizontal_margin">5dp</dimen>
+   <dimen name="activity_vertical_margin">5dp</dimen>
+   <dimen name="sign_panel_clip_padding">18dp</dimen>
+
+   <dimen name="col_basic">60dp</dimen>
+   <dimen name="col_depth">50dp</dimen>
+   <dimen name="col_radius">60dp</dimen>
+
+   <dimen name="col_indicator">5dp</dimen>
+   <dimen name="col_label">75dp</dimen>
+   <!--the total of col_indicator + col_label -->
+   <dimen name="legend_label">80dp</dimen>
+   <dimen name="legend_radius">90dp</dimen>
+   <!--landscape-->
+   <!--<dimen name="col_basic">90dp</dimen>
+   <dimen name="col_depth">50dp</dimen>
+   <dimen name="col_radius">100dp</dimen>
+   <dimen name="col_indicator">25dp</dimen>
+   <dimen name="col_label">85dp</dimen>
+   <dimen name="legend_label">110dp</dimen>-->
+</resources>

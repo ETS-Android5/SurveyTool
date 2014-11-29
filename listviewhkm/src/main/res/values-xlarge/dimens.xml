@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <dimen name="col_label">105dp</dimen>
+   <dimen name="col_basic">130dp</dimen>
+   <dimen name="col_depth">80dp</dimen>
+   <dimen name="col_radius">110dp</dimen>
+   <dimen name="legend_label">110dp</dimen>
+</resources>

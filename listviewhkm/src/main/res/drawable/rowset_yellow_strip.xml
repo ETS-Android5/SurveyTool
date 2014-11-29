@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+   <item>
+	  <shape android:shape="rectangle">
+		 <gradient
+			android:type="linear"
+			android:startColor="#ff6ec1c6"
+			android:endColor="#ff407174"
+			android:angle="270"/>
+	  </shape>
+   </item>
+   <item>
+	  <bitmap
+		 android:src="@drawable/stripes_bar"
+		 android:tileMode="repeat"/>
+   </item>
+   <item>
+	  <shape android:shape="rectangle">
+		 <gradient
+			android:type="linear"
+			android:startColor="#ff4eb8ca"
+			android:endColor="#12255f8a"
+			android:angle="270"/>
+	  </shape>
+   </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:startColor="#12255f8a"
+                android:endColor="#ff4eb8ca"
+                android:angle="270"/>
+        </shape>
+    </item>
+</layer-list>

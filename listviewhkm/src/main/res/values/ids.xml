@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- shared preferences data and their ids-->
+   <string name="cp_name">cpname</string>
+   <string name="cp_login">cplogin</string>
+   <string name="cp_pass">cppass</string>
+   <string name="cp_no">cpno</string>
+   <string name="jp_id">jpid</string>
+   <string name="jb_location">jbloc</string>
+   <string name="survery_date">surveydate</string>
+</resources>
