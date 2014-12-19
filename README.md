@@ -1,4 +1,4 @@
-OneCallMobileAnaylizer
+#Mapping and Locations System
 ======================
 
 The mobile application to record the ground locations - Android Studio Environoment
