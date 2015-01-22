@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HOMEOC911.iml" filepath="$PROJECT_DIR$/HOMEOC911.iml" />
       <module fileurl="file://$PROJECT_DIR$/OneCall1191.iml" filepath="$PROJECT_DIR$/OneCall1191.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SurveyTool.iml" filepath="$PROJECT_DIR$/SurveyTool.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/listviewhkm/listviewhkm.iml" filepath="$PROJECT_DIR$/listviewhkm/listviewhkm.iml" />
       <module fileurl="file://$PROJECT_DIR$/motion/motion.iml" filepath="$PROJECT_DIR$/motion/motion.iml" />
