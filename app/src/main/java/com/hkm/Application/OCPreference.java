@@ -1,6 +1,5 @@
 package com.hkm.Application;
 
-
 import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
@@ -50,6 +49,16 @@ public class OCPreference extends PreferenceActivity {
         loadHeadersFromResource(R.xml.preference_headers, target);
     }
 
+    @Override
+    protected boolean isValidFragment(String fragmentName) {
+        return PrefsAccountInfoFragment.class.getName().equals(fragmentName)
+                || Prefs1FragmentInner.class.getName().equals(fragmentName)
+                || PrefsDrawMapApplicationSettingsFragment.class.getName().equals(fragmentName)
+                || PrefsNotificationsFragment.class.getName().equals(fragmentName)
+                || PrefsNewWebView.class.getName().equals(fragmentName)
+                ;
+    }
+
     /**
      * This fragment shows the preferences for the first header.
      */
@@ -97,12 +106,13 @@ public class OCPreference extends PreferenceActivity {
         @Override
         public void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            // Can retrieve arguments from headers XML.
+            // -Can retrieve arguments from headers XML.
             Log.i(TAG, "Arguments: " + getArguments());
-            // Load the preferences from an XML resource
+            // -Load the preferences from an XML resource
             addPreferencesFromResource(R.xml.pref_drawmap);
         }
     }
+
     /**
      * This fragment shows the preferences for the second header.
      */
@@ -110,12 +120,13 @@ public class OCPreference extends PreferenceActivity {
         @Override
         public void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            // Can retrieve arguments from headers XML.
+            // -Can retrieve arguments from headers XML.
             Log.i(TAG, "Arguments: " + getArguments());
-            // Load the preferences from an XML resource
+            // -Load the preferences from an XML resource
             addPreferencesFromResource(R.xml.pref_notifications);
         }
     }
+
     /**
      * This fragment shows the preferences for the second header.
      */

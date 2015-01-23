@@ -41,7 +41,6 @@ public class PhotoView {
         this.update(position);
     }
 
-
     /**
      * @return the backgroundColor
      */
@@ -55,14 +54,21 @@ public class PhotoView {
     }
 
     protected void show_image() {
-        Picasso.with(ctx).load(getImageFile())
-                .fit().centerCrop()
-                .placeholder(R.drawable.alpha_1callpower)
-                .transform(new PicTransformMegaPixel(100000))
-                .error(R.drawable.ic_alerts_and_states_error_big).into(image);
+        try {
+            Picasso.with(ctx)
+                    .load(getImageFile())
+                    .fit().centerCrop()
+                    .placeholder(R.drawable.alpha_1callpower)
+                    .transform(new PicTransformMegaPixel(100000))
+                    .error(R.drawable.ic_alerts_and_states_error_big)
+                    .into(image);
+        } catch (Exception e) {
+            Tool.trace(ctx, e.getMessage());
+        }
         // .resize(300, 500)
         // .centerCrop()
     }
+
 
     /**
      * @return the text
@@ -86,15 +92,12 @@ public class PhotoView {
 
     public void onEdit() {
         Intent slnt = new Intent(ctx, SitePhotoView.class);
-
         Bundle b = new Bundle();
         b.putString("caption", this.mText);
         b.putInt("position", this.pos);
-
         slnt.putExtras(b);
         slnt.putExtra("i_uri", mUri);
         // ctx.startActivity();
         ((JobTaskActivity) ctx).startActivityForResult(slnt, WPP_INTENT);
     }
-
 }

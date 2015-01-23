@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/listviewhkm/listviewhkm.iml" filepath="$PROJECT_DIR$/listviewhkm/listviewhkm.iml" />
       <module fileurl="file://$PROJECT_DIR$/motion/motion.iml" filepath="$PROJECT_DIR$/motion/motion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rippleView/rippleView.iml" filepath="$PROJECT_DIR$/rippleView/rippleView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uipack/uipack.iml" filepath="$PROJECT_DIR$/uipack/uipack.iml" />
     </modules>
   </component>
 </project>

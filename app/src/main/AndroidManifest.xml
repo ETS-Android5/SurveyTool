@@ -147,6 +147,7 @@
         <service
             android:name="com.hkm.root.handler.AycnInfo"
             android:exported="true"></service>
+
         <receiver android:name="com.hkm.Application.UploadReceiver">
             <intent-filter>
                 <action android:name="com.hkm.Application.ONECALL_UPLOAD_COMPLETE"></action>

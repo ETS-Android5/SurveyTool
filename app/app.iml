@@ -130,6 +130,7 @@
     <orderEntry type="library" exported="" name="androidprefs-r16" level="project" />
     <orderEntry type="library" exported="" name="codepath-utils" level="project" />
     <orderEntry type="module" module-name="motion" exported="" />
+    <orderEntry type="module" module-name="uipack" exported="" />
   </component>
 </module>
 

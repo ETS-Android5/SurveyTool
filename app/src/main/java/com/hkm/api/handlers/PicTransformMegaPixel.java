@@ -68,16 +68,12 @@ public class PicTransformMegaPixel implements Transformation {
         }
         if (scale > 1) {
             scale--;
-
-
             // resize to desired dimensions
             int height = source.getHeight() / scale;
             int width = source.getWidth() / scale;
             Log.d(TAG, "1th scale operation dimenions - width: " + width + ", height:" + height);
-
             double y = Math.sqrt(IMAGE_MAX_SIZE / (((double) width) / height));
             double x = (y / height) * width;
-
             Bitmap scaledBitmap = Bitmap.createScaledBitmap(source, (int) x, (int) y, true);
             source.recycle();
             source = scaledBitmap;

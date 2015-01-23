@@ -2,6 +2,90 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\hesk\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\library-2.4.0-6a4482bdf7cf4633fb1e1f75c02d9eeedf510fee.jar" />
+    </item>
+    <item
+        jar="F:\backupgithub\SurveyTool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\classes-4140af5c1e7ba894fbeaa0e07aed26cfcc3c8d59.jar" />
+    </item>
+    <item
+        jar="C:\Users\hesk\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.0.0-RC2\9bcdc6a158903071158dafe61c4c0847de354518\okhttp-2.0.0-RC2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9bcdc6a158903071158dafe61c4c0847de354518">
+        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\okhttp-2.0.0-RC2-a59e7c61a7495cb8fd94e0dc03b53102faa25075.jar" />
+    </item>
+    <item
+        jar="C:\Users\hesk\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.photoview\library\1.2.3\d080d04a0b24390b854aa5481f1c2cc9e8c0be8a\library-1.2.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d080d04a0b24390b854aa5481f1c2cc9e8c0be8a">
+        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\library-1.2.3-bc35e7d06721fa16f0427713ea04279af2f69a7e.jar" />
+    </item>
+    <item
+        jar="F:\backupgithub\SurveyTool\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\classes-9ad760cdd20193976bf468a56d93f1a61171a574.jar" />
+    </item>
+    <item
+        jar="F:\backupgithub\SurveyTool\app\build\intermediates\exploded-aar\SurveyTool\uipack\unspecified\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a69690b370649835af5f62a8f11bcf6b2f31a04d">
+        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\classes-a77ae9862dfd0e5eddb962eb74670b1f2f0717c7.jar" />
+    </item>
+    <item
+        jar="C:\Users\hesk\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.10\8d62b91f5ccb6f7f872313191c016c03bb61a792\library-1.0.10.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8d62b91f5ccb6f7f872313191c016c03bb61a792">
+        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\library-1.0.10-902791bf9a308f276014f11d963a9d54664754b8.jar" />
+    </item>
+    <item
+        jar="F:\backupgithub\SurveyTool\app\build\intermediates\exploded-aar\org.lucasr.twowayview\twowayview\0.1.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1cdf54973ad656c13a425458ea1a46e51effa7e6">
+        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\classes-2afe442101174a1f62e8d1b84ee2ba1e747b6d21.jar" />
+    </item>
+    <item
+        jar="F:\backupgithub\SurveyTool\app\build\intermediates\exploded-aar\com.android.support\support-v13\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e128103d5281ddd26195a7f980b36d0d005a4e56">
+        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\classes-5da2e2574fa88594a0c937fbea470a5b0710290f.jar" />
+    </item>
+    <item
+        jar="F:\backupgithub\SurveyTool\app\libs\retrofit-1.6.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="efb0a36546aa8857ab8df358b106c1817e03cbee">
+        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\retrofit-1.6.1-6e37d1ea823201232cc28d087cb8c147593532b6.jar" />
+    </item>
+    <item
+        jar="F:\backupgithub\SurveyTool\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\internal_impl-21.0.0-89e39281caf9a807cf0d44e44c90a009860b95bc.jar" />
+    </item>
+    <item
+        jar="M:\tempAndroid\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\support-annotations-21.0.0-c061f248e5c8efda7f93a31b279797e3ef8c7178.jar" />
+    </item>
+    <item
         jar="F:\backupgithub\SurveyTool\app\libs\android-async-http-1.4.4.jar"
         jumboMode="false"
         revision="20.0.0"
@@ -51,41 +135,6 @@
         <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\svg-android-1.1-3b2e5e06dac758106e5d2dba9201746de679a6ce.jar" />
     </item>
     <item
-        jar="C:\Users\hesk\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\library-2.4.0-6a4482bdf7cf4633fb1e1f75c02d9eeedf510fee.jar" />
-    </item>
-    <item
-        jar="F:\backupgithub\SurveyTool\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
-        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\classes-4140af5c1e7ba894fbeaa0e07aed26cfcc3c8d59.jar" />
-    </item>
-    <item
-        jar="C:\Users\hesk\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.0.0-RC2\9bcdc6a158903071158dafe61c4c0847de354518\okhttp-2.0.0-RC2.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="9bcdc6a158903071158dafe61c4c0847de354518">
-        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\okhttp-2.0.0-RC2-a59e7c61a7495cb8fd94e0dc03b53102faa25075.jar" />
-    </item>
-    <item
-        jar="C:\Users\hesk\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.photoview\library\1.2.3\d080d04a0b24390b854aa5481f1c2cc9e8c0be8a\library-1.2.3.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="d080d04a0b24390b854aa5481f1c2cc9e8c0be8a">
-        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\library-1.2.3-bc35e7d06721fa16f0427713ea04279af2f69a7e.jar" />
-    </item>
-    <item
-        jar="F:\backupgithub\SurveyTool\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
-        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\classes-9ad760cdd20193976bf468a56d93f1a61171a574.jar" />
-    </item>
-    <item
         jar="C:\Users\hesk\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
         jumboMode="false"
         revision="20.0.0"
@@ -96,7 +145,7 @@
         jar="F:\backupgithub\SurveyTool\app\build\intermediates\exploded-aar\SurveyTool\motion\unspecified\classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="c2cb068bc7079e81ce5933a2a3b4a0ebd060350c">
+        sha1="ee9d15de91f43d53babe0e54b833ea88a248a7ea">
         <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\classes-f0ce6318365af256425f804ebe09c811311e9f6d.jar" />
     </item>
     <item
@@ -105,13 +154,6 @@
         revision="20.0.0"
         sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
         <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\picasso-2.3.2-8622c945de9270dd68a77fa5567902c0febb703e.jar" />
-    </item>
-    <item
-        jar="C:\Users\hesk\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.10\8d62b91f5ccb6f7f872313191c016c03bb61a792\library-1.0.10.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="8d62b91f5ccb6f7f872313191c016c03bb61a792">
-        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\library-1.0.10-902791bf9a308f276014f11d963a9d54664754b8.jar" />
     </item>
     <item
         jar="C:\Users\hesk\.gradle\caches\modules-2\files-2.1\com.android.prefs\androidprefs\r16\749f02cf384a6a4158e3aaace912ece93bf6a9b0\androidprefs-r16.jar"
@@ -126,20 +168,6 @@
         revision="20.0.0"
         sha1="d37d9acdd04128d20d569a94bf4d536116c46332">
         <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\joquery-0.14-4f0fa62628bb59870a885a64f8de6ed9b6c522ea.jar" />
-    </item>
-    <item
-        jar="F:\backupgithub\SurveyTool\app\build\intermediates\exploded-aar\org.lucasr.twowayview\twowayview\0.1.0\classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="1cdf54973ad656c13a425458ea1a46e51effa7e6">
-        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\classes-2afe442101174a1f62e8d1b84ee2ba1e747b6d21.jar" />
-    </item>
-    <item
-        jar="F:\backupgithub\SurveyTool\app\build\intermediates\exploded-aar\com.android.support\support-v13\20.0.0\classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="e128103d5281ddd26195a7f980b36d0d005a4e56">
-        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\classes-5da2e2574fa88594a0c937fbea470a5b0710290f.jar" />
     </item>
     <item
         jar="F:\backupgithub\SurveyTool\app\libs\pen-v1.0.4.jar"
@@ -163,32 +191,11 @@
         <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\codepath-utils-c33e190eaaee77ea826e11f407bdb194762342ef.jar" />
     </item>
     <item
-        jar="F:\backupgithub\SurveyTool\app\libs\retrofit-1.6.1.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="efb0a36546aa8857ab8df358b106c1817e03cbee">
-        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\retrofit-1.6.1-6e37d1ea823201232cc28d087cb8c147593532b6.jar" />
-    </item>
-    <item
-        jar="F:\backupgithub\SurveyTool\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
-        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\internal_impl-21.0.0-89e39281caf9a807cf0d44e44c90a009860b95bc.jar" />
-    </item>
-    <item
         jar="C:\Users\hesk\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.0.0\2534c458682c73f5b9871131ab3098d3f987ca3\okio-1.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="02534c458682c73f5b9871131ab3098d3f987ca3">
         <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\okio-1.0.0-3e211b33eb2dd55ca0579965ebd519ef85421036.jar" />
-    </item>
-    <item
-        jar="M:\tempAndroid\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
-        <dex dex="F:\backupgithub\SurveyTool\app\build\intermediates\pre-dexed\normal\debug\support-annotations-21.0.0-c061f248e5c8efda7f93a31b279797e3ef8c7178.jar" />
     </item>
     <item
         jar="F:\backupgithub\SurveyTool\app\build\intermediates\exploded-aar\com.doomonafireball.betterpickers\library\1.5.2\classes.jar"

@@ -12,6 +12,8 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/listviewhkm" />
             <option value="$PROJECT_DIR$/motion" />
+            <option value="$PROJECT_DIR$/rippleView" />
+            <option value="$PROJECT_DIR$/uipack" />
           </set>
         </option>
       </GradleProjectSettings>
