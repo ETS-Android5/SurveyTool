@@ -209,7 +209,7 @@ public class SimpleSurfacePanel extends SurfaceView implements SurfaceHolder.Cal
                     try {
                         c = this.surfaceHolder.lockCanvas(null);
                         synchronized (this.surfaceHolder) {
-                            SimpleSurfacePanel.this.onDraw(c);
+                           // SimpleSurfacePanel.this.onDraw(c);
                         }
                     } catch (Exception e) {
                         e.printStackTrace();

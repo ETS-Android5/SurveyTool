@@ -5,25 +5,11 @@
    xmlns:tools="http://schemas.android.com/tools"
    android:layout_width="fill_parent"
    android:layout_height="fill_parent"
-
    tools:context=".StartPanel"
    android:background="@color/white">
- <!--  android:paddingBottom="@dimen/activity_vertical_margin"
-   android:paddingLeft="@dimen/activity_horizontal_margin"
-   android:paddingRight="@dimen/activity_horizontal_margin"
-   android:paddingTop="@dimen/activity_vertical_margin"-->
-
    <RelativeLayout
 	  android:layout_width="match_parent"
 	  android:layout_height="match_parent">
-	  <!--
-			<ParallaxImageView
-				android:layout_width="fill_parent"
-				android:layout_height="fill_parent"
-				android:src="@drawable/map_bg_simple"
-				android:layout_gravity="end"
-				android:scaleType="centerCrop"
-				android:id="@+id/mapimg" />-->
 
 	  <com.nvanbenschoten.motion.ParallaxImageView
 		 android:src="@drawable/map_bg_simple"
@@ -46,9 +32,8 @@
 		 <ImageView
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:src="@drawable/alpha_1callpower"
+			android:src="@drawable/cabele_s_logo"
 			android:layout_gravity="start"
-
 			/>
 
 		 <TextView
@@ -58,7 +43,6 @@
 			android:id="@+id/version_corner"
 			android:layout_gravity="right"
 			android:text="version_code_here"/>
-
 
 	  </LinearLayout>
 
@@ -114,9 +98,5 @@
 			android:background="@drawable/background4"
 			android:text="online status here"/>
 	  </LinearLayout>
-
-
    </RelativeLayout>
-
-
 </RelativeLayout>

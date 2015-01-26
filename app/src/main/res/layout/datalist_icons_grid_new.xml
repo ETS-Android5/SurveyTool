@@ -39,19 +39,7 @@
 		 android:textSize="20dp"
 		 android:typeface="sans"/>
 
-	  <TextView
-		 android:id="@+id/c2"
-		 android:layout_width="wrap_content"
-		 android:layout_height="wrap_content"
-		 android:layout_gravity="center_vertical"
-		 android:layout_marginLeft="10px"
-		 android:layout_toRightOf="@+id/c1"
-		 android:layout_weight="1"
-		 android:singleLine="true"
-		 android:text="Legend Description"
-		 android:textIsSelectable="false"
-		 android:textSize="20dp"
-		 android:typeface="sans"/>
+
    </RelativeLayout>
 
    <LinearLayout

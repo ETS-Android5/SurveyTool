@@ -183,7 +183,7 @@ public class loading extends worker {
         final String[] menutitles = context.getResources().getStringArray(R.array.map_control_items);
         final TypedArray menuIcons = context.getResources().obtainTypedArray(R.array.icons);
         final List<RowItem> menulist = new ArrayList<RowItem>();
-        menulist.add(new RowItem("mainlogo", R.drawable.exitstrategy, RowItem.RowItemType.BIG));
+        menulist.add(new RowItem("mainlogo", R.drawable.exit_xxl, RowItem.RowItemType.BIG));
         for (int i = 0; i < menutitles.length; i++) {
             RowItem items = new RowItem(menutitles[i], menuIcons.getResourceId(i, -1), RowItem.RowItemType.NORMAL);
             menulist.add(items);
