@@ -18,6 +18,7 @@ import com.hkm.U.Tool;
 import com.hkm.oc.R;
 
 /**
+ * HKM All Rights reserved.
  * Created by Hesk on 24/6/2014.
  */
 public class MapApiLayer extends BaseLayerAppearance
