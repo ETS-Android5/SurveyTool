@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tp_width_but" type="id" />
+    <item name="tp_height_but" type="id" />
+    <item name="tp_width_view" type="id" />
+    <item name="tp_height_view" type="id" />
+    <!--<item name="tp_height_but" type="id" />
+    <item name="tp_height_but" type="id" />-->
+</resources>

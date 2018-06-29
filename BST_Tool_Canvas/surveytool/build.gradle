@@ -25,6 +25,7 @@ dependencies {
     implementation supportDependencies.appCompat
     implementation supportDependencies.recycler
     implementation supportDependencies.cardView
+    implementation supportDependencies.gson
     implementation supportDependencies.flex
 
     implementation supportDependencies.firebasecore

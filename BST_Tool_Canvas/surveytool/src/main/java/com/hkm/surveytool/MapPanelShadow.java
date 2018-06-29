@@ -13,9 +13,21 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
 
-import java.util.ArrayList;
+import com.hkm.surveytool.Element.AbPointRuler;
+import com.hkm.surveytool.Element.DataPoints.BigObserveDot;
+import com.hkm.surveytool.Element.Dot;
+import com.hkm.surveytool.Element.Pen;
+import com.hkm.surveytool.Element.ProposedTrialPit;
+import com.hkm.surveytool.Element.Route;
+import com.hkm.surveytool.Element.SurveyBoundary;
+import com.hkm.surveytool.Listener.CanvasThread;
+import com.hkm.surveytool.Listener.PanelTouchListener;
+import com.hkm.surveytool.Listener.RenMatrixProcess;
 
-public class PanelBase extends SurfaceView implements SurfaceHolder.Callback2, SurfaceHolder.Callback, View.OnTouchListener{
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public abstract class MapPanelShadow extends SurfaceView implements SurfaceHolder.Callback2, SurfaceHolder.Callback, View.OnTouchListener {
 
     //vine
     //this is a list of valid positions with the respective order number from the starting route
@@ -213,10 +225,15 @@ public class PanelBase extends SurfaceView implements SurfaceHolder.Callback2, S
 
         }
     }
+
     public abstract BigObserveDot getA();
+
     public abstract BigObserveDot getB();
+
     protected abstract void black_box();
+
     protected abstract void touch_single_point_detection();
+
     protected abstract void init();
 
 }

@@ -46,17 +46,17 @@ public class Sprite {
         //2 = left
         //3 = right
         //facing down
-        if (x > panel.getWidth() - width - xspeed) {
-            xspeed = 0;
-            yspeed = 5;
-            direction = 1;
-        }
+       // if (x > panel.getWidth() - width - xspeed) {
+          //  xspeed = 0;
+          //  yspeed = 5;
+          //  direction = 1;
+        //}
         //going left
-        if (y > panel.getHeight() - height - yspeed) {
-            xspeed = -5;
-            yspeed = 0;
-            direction = 2;
-        }
+       // if (y > panel.getHeight() - height - yspeed) {
+          //  xspeed = -5;
+         //   yspeed = 0;
+         //   direction = 2;
+      //  }
         //facing up
         if (x + xspeed < 0) {
             x = 0;

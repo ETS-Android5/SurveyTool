@@ -40,7 +40,6 @@ public class IconBitmap {
         //mPaint.setColor(0xffff0000);
         mPaint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.SRC));
         bm = ((BitmapDrawable) bd).getBitmap();
-
     }
 
     private void init_2(String tx) {
