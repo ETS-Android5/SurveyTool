@@ -6,9 +6,9 @@ import android.graphics.Path;
 import android.graphics.PathMeasure;
 import android.util.Log;
 
-import com.hkm.datamodel.Paths;
-import com.hkm.datamodel.RouteNode;
-import com.hkm.oc.panel.corepanel.elements.Dot;
+import com.hkm.surveytool.Element.DataPoints.Paths;
+import com.hkm.surveytool.Element.DataPoints.RouteNode;
+import com.hkm.surveytool.Element.Dot;
 
 import java.util.ArrayList;
 

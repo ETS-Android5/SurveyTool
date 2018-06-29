@@ -8,6 +8,8 @@ import android.graphics.Rect;
 import android.util.Log;
 import android.view.View;
 
+import com.hkm.surveytool.AppDataRetain;
+import com.hkm.surveytool.Constant;
 import com.hkm.surveytool.Element.DataPoints.BigObserveDot;
 import com.hkm.surveytool.Element.Math.EQPool;
 import com.hkm.surveytool.Element.Math.Geometry;
@@ -41,7 +43,7 @@ public class AbPointRuler extends Element implements View.OnClickListener {
         p_default.setStyle(Paint.Style.STROKE);
         p_default.setStrokeWidth(1.9f);
         mpanel = panel;
-        p_default.setColor(panel.getResources().getColor(R.color.darker_blue));
+        p_default.setColor(panel.getResources().getColor(R.color.holo_blue_dark));
         p_default.setAntiAlias(true);
         p_default.setPathEffect(new DashPathEffect(new float[]{2, 10, 50, 10}, 0));
         mpen = pen;

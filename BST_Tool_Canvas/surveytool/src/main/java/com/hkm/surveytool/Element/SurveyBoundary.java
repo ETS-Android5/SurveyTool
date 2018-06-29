@@ -6,6 +6,9 @@ import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.PointF;
 
+import com.google.gson.annotations.SerializedName;
+import com.hkm.surveytool.Listener.Tool;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 

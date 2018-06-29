@@ -5,8 +5,9 @@ import android.graphics.Canvas;
 import android.graphics.PointF;
 import android.view.MotionEvent;
 
-import com.hkm.oc.panel.corepanel.elements.shapes.Element;
-import com.hkm.oc.panel.corepanel.elements.Pen;
+import com.hkm.surveytool.Element.Pen;
+import com.hkm.surveytool.Element.Shapes.Element;
+
 
 /**
  * Created by Hesk on 13.

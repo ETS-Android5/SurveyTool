@@ -6,7 +6,8 @@ import android.graphics.Point;
 import android.graphics.PointF;
 import android.view.MotionEvent;
 
-import com.hkm.U.Content;
+
+import com.hkm.surveytool.AppDataRetain;
 
 import java.math.BigDecimal;
 import java.nio.ByteBuffer;
@@ -14,7 +15,8 @@ import java.util.HashMap;
 import java.util.Random;
 import java.util.UUID;
 
-import static com.hkm.U.Constant.inch_meter_ratio;
+import static com.hkm.surveytool.Element.DataPoints.SymbolC.inch_meter_ratio;
+
 
 /**
  * Geometry ToolBox Developed by Heskeyo Kam

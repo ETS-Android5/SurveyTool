@@ -41,4 +41,10 @@ public class Tool {
             Toast.makeText(ctx, f, Toast.LENGTH_LONG).show();
         }
     }
+
+    public static int getPaintColorCodeByName(Context ctx, String name) {
+        final int color_code = ctx.getResources().getIdentifier(name, "color", ctx.getPackageName());
+        return ctx.getResources().getColor(color_code);
+    }
+
 }
