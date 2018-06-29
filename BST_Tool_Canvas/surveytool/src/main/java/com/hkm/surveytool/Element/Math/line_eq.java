@@ -61,8 +61,8 @@ public class line_eq implements Serializable {
     /**
      * Constructing a line with a slope and a crossing point
      *
-     * @param slope
-     * @param crossPoint
+     * @param slope slope measurement
+     * @param crossPoint the position point
      */
     public line_eq(double slope, PointF crossPoint) {
         min_y = max_y = min_x = max_x = 0.0f;

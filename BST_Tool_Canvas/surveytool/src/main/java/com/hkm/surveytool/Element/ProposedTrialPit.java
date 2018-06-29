@@ -155,9 +155,9 @@ public class ProposedTrialPit extends Element implements View.OnClickListener, S
     /**
      * this function will run in a loop and constantly going
      *
-     * @param v
-     * @param event
-     * @return
+     * @param v bool
+     * @param event bool
+     * @return bool
      */
     public boolean setInteractive(View v, MotionEvent event) {
         //screen offset points correction
@@ -232,8 +232,8 @@ public class ProposedTrialPit extends Element implements View.OnClickListener, S
     /**
      * changing Mode with the given Mode Constant integer
      *
-     * @param mode_constant
-     * @return
+     * @param mode_constant bool
+     * @return bool
      */
     public ProposedTrialPit onMode(int mode_constant) {
         mode = mode_constant;
@@ -494,7 +494,7 @@ public class ProposedTrialPit extends Element implements View.OnClickListener, S
     /**
      * this is the old edit text box interactions
      *
-     * @param v
+     * @param v bool
      */
     @Override
     public void onClick(View v) {

@@ -95,7 +95,7 @@ public class Route {
     /**
      * force the engine to render the label
      *
-     * @param k
+     * @param k bool
      */
     public void setRenderLabel(boolean k) {
         update_route_rendering = k;
@@ -121,9 +121,9 @@ public class Route {
     /**
      * external use
      *
-     * @param touch_point
-     * @param radius_detection
-     * @return
+     * @param touch_point position
+     * @param radius_detection the radius detection length
+     * @return bool
      */
     public boolean is_touch_on_route(PointF touch_point, float radius_detection) {
         Iterator<Dot> iterator = containDots.iterator();
@@ -179,7 +179,7 @@ public class Route {
     /**
      * @param Positive, this is chosen dot
      * @param Negative, this is not the chosen dot
-     * @return
+     * @return na
      */
     public boolean add(Dot Positive, Dot Negative) {
         int tag_id = Positive.getOrder();

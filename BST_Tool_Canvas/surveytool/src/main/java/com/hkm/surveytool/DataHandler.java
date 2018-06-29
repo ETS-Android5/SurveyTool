@@ -121,8 +121,8 @@ public class DataHandler {
     /**
      * getting the Letter from the reference data list by the index id
      *
-     * @param index_id
-     * @return
+     * @param index_id position id
+     * @return string name
      */
     public static String get_letter_reference_by_index_id(int index_id) {
         final String text = Constant.MapData.InternalIconList[index_id];
@@ -149,8 +149,8 @@ public class DataHandler {
     /**
      * letter output for checking the reference is # or not
      *
-     * @param index_id
-     * @return
+     * @param index_id position id
+     * @return string
      */
     public static String sharpOut(int index_id) {
         return isSharp(index_id) ? "#" : "";
@@ -169,8 +169,8 @@ public class DataHandler {
      * <p/>
      * 5. THE MARKER LINE LABEL
      *
-     * @param letter_num_intrinsic
-     * @return
+     * @param letter_num_intrinsic position point
+     * @return the string
      */
     public static String get_label_color_instrinsic(int letter_num_intrinsic) {
         final String[] a = break_down_ref(letter_num_intrinsic);

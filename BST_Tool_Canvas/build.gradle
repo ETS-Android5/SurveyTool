@@ -15,7 +15,12 @@ allprojects {
     repositories {
         jcenter()
         maven { url "https://maven.google.com" }
+        maven {
+            url 'http://oss.jfrog.org/artifactory/oss-snapshot-local'
+        }
+        maven { url 'https://jitpack.io' }
         google()
+        mavenLocal()
     }
 }
 task clean(type: Delete) {

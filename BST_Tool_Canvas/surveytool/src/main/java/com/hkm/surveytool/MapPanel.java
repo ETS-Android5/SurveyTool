@@ -693,7 +693,7 @@ public class MapPanel extends MapPanelShadow {
         final boolean down = me.getAction() == MotionEvent.ACTION_DOWN;
         final boolean up = me.getAction() == MotionEvent.ACTION_UP;
 
-        if (!proTP.setInteractive(v, me)) {
+        if (proTP != null && !proTP.setInteractive(v, me)) {
             if (isMode(ADJUSTMENT)) {
                 if (mScaleGestureDetector.onTouchEvent(me)) {
                     mGestureDetector.onTouchEvent(me);

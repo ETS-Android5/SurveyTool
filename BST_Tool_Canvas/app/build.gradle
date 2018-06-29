@@ -10,6 +10,9 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        renderscriptTargetApi project.ANDROID_BUILD_TARGET_SDK_VERSION as int
+        renderscriptSupportModeEnabled false
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -17,16 +20,62 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-}
 
+    packagingOptions {
+        //  pickFirst 'META-INF/services/javax.annotation.processing.Processor'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'LICENSE'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+        exclude 'META-INF/ASL2.0'
+
+        //  pickFirst 'META-INF/rxjava.properties'
+        //--------------------
+        //  pickFirst 'lib/x86/librealm-jni.so'
+        //  pickFirst 'lib/x86_64/librealm-jni.so'
+        //  pickFirst 'lib/arm64-v8a/librealm-jni.so'
+        //  pickFirst 'lib/armeabi-v7a/librealm-jni.so'
+        //  pickFirst 'lib/mips/librealm-jni.so'
+    }
+}
+repositories {
+    jcenter()
+    mavenCentral()
+    maven { url 'https://maven.fabric.io/public' }
+    maven { url 'https://jitpack.io' }
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+    maven { url 'https://oss.jfrog.org/artifactory/oss-snapshot-local' }
+    maven { url 'http://dl.bintray.com/jjhesk/maven/' }
+    maven { url 'https://clojars.org/repo/' }
+    maven { url 'https://maven.google.com' }
+}
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation supportDependencies.annotation
     implementation supportDependencies.appCompat
+    implementation supportDependencies.recycler
     implementation 'com.android.support.constraint:constraint-layout:1.1.2'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-
+    implementation supportDependencies.butterknife //annotation v26
+    annotationProcessor supportDependencies.butterknifeapt
     implementation project(':surveytool')
+
+    implementation('com.hkm.ui:advancedtoolbar:1.2.0') {
+        exclude group: 'com.android.support'
+    }
+    implementation('com.hkm.ui:material-stepper:4.5.1') {
+        exclude group: 'com.android.support'
+    }
+    implementation('com.hkm.ui:discrete-scrollview:1.5.6') {
+        exclude group: 'com.android.support'
+    }
+
 }

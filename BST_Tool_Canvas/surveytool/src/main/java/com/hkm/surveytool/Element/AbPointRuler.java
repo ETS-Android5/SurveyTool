@@ -165,8 +165,8 @@ public class AbPointRuler extends Element implements View.OnClickListener {
     /**
      * this is response to OneCall requirement to set Point A and Point B to the current measured AB points on the Basemap
      *
-     * @param a
-     * @param b
+     * @param a position point
+     * @param b position point
      */
     public void setABPoints(PointF a, PointF b) {
         RulerPointB.set(b);

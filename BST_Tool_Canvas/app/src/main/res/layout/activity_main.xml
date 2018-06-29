@@ -6,22 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.hkm.surveytool.MapPanel
-        android:id="@+id/rendering_panel"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/statustext"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginTop="50dp"
-        android:fontFamily="sans-serif-black-small-caps"
-        android:singleLine="false"
-        android:text=""
-        android:textColor="@color/colorPrimaryDark" />
+        <com.hkm.surveytool.MapPanel
+            android:id="@+id/rendering_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
+        <TextView
+            android:id="@+id/statustext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-black-small-caps"
+            android:singleLine="false"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark" />
+
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
