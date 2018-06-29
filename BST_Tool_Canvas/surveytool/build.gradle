@@ -1,0 +1,37 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion project.ANDROID_BUILD_SDK_VERSION as int
+    buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
+
+    defaultConfig {
+        minSdkVersion project.ANDROID_BUILD_MIN_SDK_VERSION
+        targetSdkVersion project.ANDROID_BUILD_TARGET_SDK_VERSION
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation supportDependencies.design
+    implementation supportDependencies.annotation
+    implementation supportDependencies.appCompat
+    implementation supportDependencies.recycler
+    implementation supportDependencies.cardView
+    implementation supportDependencies.flex
+
+    implementation supportDependencies.firebasecore
+    implementation supportDependencies.messaging
+    implementation supportDependencies.butterknife //annotation v26
+    annotationProcessor supportDependencies.butterknifeapt
+    implementation supportDependencies.support
+}
+
+//apply from: 'bintrayrelease.gradle'
