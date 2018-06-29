@@ -34,4 +34,4 @@ dependencies {
     implementation supportDependencies.support
 }
 
-//apply from: 'bintrayrelease.gradle'
+apply from: 'bintrayrelease.gradle'

@@ -9,6 +9,10 @@ publish {
     website = project.POM_URL
     autoPublish = true
     dryRun = false
+    userOrg =  project.POM_DEVELOPER_ID
+    publishVersion =  project.POM_VERSION
+    desc =  project.POM_DESCRIPTION
+
 }
 
 
