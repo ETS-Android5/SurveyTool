@@ -25,5 +25,6 @@ public class NodeMgm extends Mainase {
             AppDataRetain.require_update_depth = false;
             AppDataRetain.require_update_pos = false;
         }
+
     }
 }

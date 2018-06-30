@@ -6,7 +6,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.2'
+        classpath "com.android.tools.build:gradle:3.1.2"
         classpath "com.novoda:bintray-release:${NOVODA}"
     }
 }
@@ -16,9 +16,9 @@ allprojects {
         jcenter()
         maven { url "https://maven.google.com" }
         maven {
-            url 'http://oss.jfrog.org/artifactory/oss-snapshot-local'
+            url "http://oss.jfrog.org/artifactory/oss-snapshot-local"
         }
-        maven { url 'https://jitpack.io' }
+        maven { url "https://jitpack.io" }
         google()
         mavenLocal()
     }
