@@ -25,5 +25,17 @@
     </style>
 
 
+    <style name="dimBTheme" parent="iosVideo">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="dark_ios_trans" parent="iosVideo">
+        <item name="android:windowBackground">@color/black_overlay_dark</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
 
 </resources>

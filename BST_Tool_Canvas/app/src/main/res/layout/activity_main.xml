@@ -28,5 +28,13 @@
             android:text=""
             android:textColor="@color/colorPrimaryDark" />
 
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/big_small"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="A"
+            android:textSize="20sp" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

@@ -3,10 +3,10 @@ apply plugin: 'android'
 android {
     signingConfigs {
         homekeyconfiguration {
-            storeFile file('M:/keystore/onecall.keystore')
-            storePassword 'kmk12345'
-            keyAlias 'onecall'
-            keyPassword 'kmk12345'
+           // storeFile file('M:/keystore/onecall.keystore')
+           // storePassword 'kmk12345'
+          //  keyAlias 'onecall'
+          //  keyPassword 'kmk12345'
         }
         /* officekeyconfiguration {
              storeFile file('C:/CCCHesk/DROPBOX/token_keys/onecall.keystore')
@@ -18,8 +18,8 @@ android {
 /*    compileSdkVersion 19
     buildToolsVersion '19.1.0'*/
 
-    compileSdkVersion 19
-    buildToolsVersion '20'
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId 'com.hkm.oc.app'
         minSdkVersion 16
@@ -44,9 +44,9 @@ android {
     }
     productFlavors {
         ListViewTesting {
-            minSdkVersion 16
+    minSdkVersion 19
             applicationId 'com.hkm.oc.listview'
-            targetSdkVersion 20
+            targetSdkVersion 26
             versionCode 1159
             versionName 'test alpha 0.1'
         }

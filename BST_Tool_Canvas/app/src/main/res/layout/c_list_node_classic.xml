@@ -3,59 +3,64 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/route_label"
-                style="@style/c.column.label"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                android:id="@+id/column1"
-                style="@style/c.column.dep"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                android:id="@+id/column2"
-                style="@style/c.column"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/row_d_a" />
-
-            <TextView
-                android:id="@+id/column3"
-                style="@style/c.column"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/row_d_b" />
-
-            <TextView
-                android:id="@+id/column4"
-                style="@style/c.column.cable_radius.label"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
-
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/mlist_container"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="400dp"
+            android:layout_alignParentBottom="true"
             android:orientation="vertical">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-        </android.support.v7.widget.RecyclerView>
-    </LinearLayout>
+                <TextView
+                    android:id="@+id/route_label"
+                    style="@style/c.column.label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/column1"
+                    style="@style/c.column.dep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/column2"
+                    style="@style/c.column"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/row_d_a" />
+
+                <TextView
+                    android:id="@+id/column3"
+                    style="@style/c.column"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/row_d_b" />
+
+                <TextView
+                    android:id="@+id/column4"
+                    style="@style/c.column.cable_radius.label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/mlist_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
 
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
