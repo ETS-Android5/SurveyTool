@@ -1,4 +1,4 @@
-#Mapping and Locations System
+# Mapping and Locations System
 ========================================
 
 This application contents both connection end point of the server and the client side. Please find solutions to make it work!
@@ -11,3 +11,4 @@ How to make drawings on the Map [Watch Tutorial](https://www.youtube.com/watch?v
 
 List View [Watch Tutorial](https://www.youtube.com/watch?v=Ua8ERRPcpis)
 
+LICENSE
